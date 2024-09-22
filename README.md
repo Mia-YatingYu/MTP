@@ -1,2 +1,2 @@
-# MTP
-Prompts Unveil Video Dynamics: Expanding Temporal Perception of CLIP for Open Vocabulary Action Recognition
+# Spatiotemporal Dynamic Duo
+Building a Multi-modal Spatiotemporal Expert for Zero-shot Action Recognition with CLIP
