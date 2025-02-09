@@ -9,6 +9,6 @@ This repository contains the official Pytorch implementation of our paper:
 
 # Introduction
 
-![STDD](figures\STDD.jpg)
+![STDD](figures/STDD.jpg)
 
 This paper presents a novel CLIP-based framework, **Spatiotemporal Dynamic Duo** (STDD), designed to comprehend multi-modal spatiotemporal dynamics flexibly through simple yet effective operations applied before and after spatial attention for the vision modality and refining semantic modality with spatiotemporal text augmentation.
