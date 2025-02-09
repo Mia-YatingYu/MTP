@@ -1,0 +1,3553 @@
+apply eye makeup:
+  label: apply eye makeup
+  obj_en_li:
+  - eye shadow
+  - eyeliner
+  - mascara
+  - eyeshadow brush
+  - eyeliner brush
+  - mascara wand
+  - eye
+  obj_rel_triples:
+  - <eye shadow, applied with, eyeshadow brush>
+  - <eyeliner, applied with, eyeliner brush>
+  - <mascara, applied with, mascara wand>
+  - <eyeshadow brush, used for, applying eye shadow>
+  - <eyeliner brush, used for, applying eyeliner>
+  - <mascara wand, used for, applying mascara>
+  - <eye, area where eye makeup is applied>
+  act_obj_triples:
+  - <apply eye makeup, involves, eye shadow>
+  - <apply eye makeup, involves, eyeliner>
+  - <apply eye makeup, involves, mascara>
+  - <apply eye makeup, uses, eyeshadow brush>
+  - <apply eye makeup, uses, eyeliner brush>
+  - <apply eye makeup, uses, mascara wand>
+  - <apply eye makeup, requires, eye>
+  sub_act_en_li:
+  - preparing the eye area
+  - applying eye shadow
+  - applying eyeliner
+  - applying mascara
+  act_rel_triples:
+  - <apply eye makeup, starts with, preparing the eye area>
+  - <preparing the eye area, precedes, applying eye shadow>
+  - <applying eye shadow, precedes, applying eyeliner>
+  - <applying eyeliner, precedes, applying mascara>
+
+apply lipstick:
+  label: apply lipstick
+  obj_en_li: 
+  - lipstick
+  - lips
+  - mirror
+  - hand
+  - tissue
+  obj_rel_triples: 
+  - <lipstick, applied on, lips>
+  - <lips, reflected in, mirror>
+  - <hand, holds, lipstick>
+  - <hand, holds, tissue>
+  act_obj_triples: 
+  - <apply lipstick, uses, lipstick>
+  - <apply lipstick, involves, lips>
+  - <apply lipstick, requires, mirror>
+  - <apply lipstick, needs, hand>
+  - <apply lipstick, utilizes, tissue>
+  sub_act_en_li:
+  - opening lipstick
+  - holding the mirror
+  - applying lipstick on the lips
+  - blotting the excess lipstick with a tissue
+  act_rel_triples: 
+  - <apply lipstick, starts with, opening lipstick>
+  - <opening lipstick, precedes, holding the mirror>
+  - <holding the mirror, precedes, applying lipstick on the lips>
+  - <applying lipstick on the lips, precedes, blotting the excess lipstick with a tissue>
+
+archery:
+  label: archery
+  obj_en_li:
+  - bow
+  - arrow
+  - target
+  - quiver
+  - armguard
+  - finger tab
+  - bullseye
+  obj_rel_triples:
+  - <bow, used to shoot, arrow>
+  - <arrow, aimed at, target>
+  - <quiver, holds, arrows>
+  - <armguard, protects, arm>
+  - <finger tab, protects, fingers>
+  - <target, has, bullseye>
+  act_obj_triples:
+  - <archery, requires, bow>
+  - <archery, uses, arrow>
+  - <archery, aims at, target>
+  - <archery, utilizes, quiver>
+  - <archery, requires, armguard>
+  - <archery, needs, finger tab>
+  - <archery, involves, bullseye>
+  sub_act_en_li:
+  - gripping the bow
+  - nocking the arrow
+  - drawing the bowstring
+  - aiming at the target
+  - releasing the arrow
+  - following through
+  act_rel_triples:
+  - <archery, starts with, gripping the bow>
+  - <gripping the bow, precedes, nocking the arrow>
+  - <nocking the arrow, precedes, drawing the bowstring>
+  - <drawing the bowstring, precedes, aiming at the target>
+  - <aiming at the target, precedes, releasing the arrow>
+  - <releasing the arrow, precedes, following through>
+
+baby crawling:
+  label: baby crawling
+  obj_en_li:
+  - baby
+  - floor
+  - hands
+  - knees
+  - movement
+  obj_rel_triples:
+  - <baby, moves on, floor>
+  - <baby, supports with, hands>
+  - <baby, supports with, knees>
+  - <baby, performs, movement>
+  act_obj_triples:
+  - <baby crawling, involves, baby>
+  - <baby crawling, takes place on, floor>
+  - <baby crawling, uses, hands>
+  - <baby crawling, uses, knees>
+  - <baby crawling, involves, movement>
+  sub_act_en_li:
+  - getting into crawling position
+  - moving hands forward
+  - moving knees forward
+  - coordinating hand and knee movements
+  act_rel_triples:
+  - <baby crawling, starts with, getting into crawling position>
+  - <getting into crawling position, precedes, moving hands forward>
+  - <moving hands forward, precedes, moving knees forward>
+  - <moving knees forward, precedes, coordinating hand and knee movements>
+
+balance beam:
+  label: balance beam
+  obj_en_li:
+  - balance beam
+  - gymnast
+  - feet
+  - arms
+  - core muscles
+  - balance
+  obj_rel_triples:
+  - <balance beam, used by, gymnast>
+  - <gymnast, stands on, balance beam>
+  - <feet, positioned on, balance beam>
+  - <arms, extended for, balance>
+  - <core muscles, engaged for, balance>
+  act_obj_triples:
+  - <balance beam, requires, gymnast>
+  - <balance beam, involves, feet>
+  - <balance beam, utilizes, arms>
+  - <balance beam, relies on, core muscles>
+  - <balance beam, requires, balance>
+  sub_act_en_li:
+  - mounting the balance beam
+  - maintaining balance
+  - performing skills
+  - dismounting the balance beam
+  act_rel_triples:
+  - <balance beam, starts with, mounting the balance beam>
+  - <mounting the balance beam, precedes, maintaining balance>
+  - <maintaining balance, precedes, performing skills>
+  - <performing skills, precedes, dismounting the balance beam>
+
+band marching:
+  label: band marching
+  obj_en_li:
+  - band members
+  - musical instruments
+  - uniforms
+  - drum major
+  - parade route
+  - marching formation
+  obj_rel_triples:
+  - <band members, play, musical instruments>
+  - <band members, wear, uniforms>
+  - <drum major, leads, band members>
+  - <band members, follow, drum major>
+  - <band members, march along, parade route>
+  - <band members, maintain, marching formation>
+  act_obj_triples:
+  - <band marching, involves, band members>
+  - <band marching, requires, musical instruments>
+  - <band marching, requires, uniforms>
+  - <band marching, led by, drum major>
+  - <band marching, follows, drum major>
+  - <band marching, takes place along, parade route>
+  - <band marching, maintains, marching formation>
+  sub_act_en_li:
+  - assembling the band
+  - tuning the instruments
+  - practicing marching steps
+  - following the drum major's commands
+  - maintaining the marching formation
+  - performing musical routines
+  act_rel_triples:
+  - <band marching, starts with, assembling the band>
+  - <assembling the band, precedes, tuning the instruments>
+  - <tuning the instruments, precedes, practicing marching steps>
+  - <practicing marching steps, precedes, following the drum major's commands>
+  - <following the drum major's commands, precedes, maintaining the marching formation>
+  - <maintaining the marching formation, precedes, performing musical routines>
+
+baseball pitch:
+  label: baseball pitch
+  obj_en_li:
+  - baseball
+  - pitcher
+  - batter
+  - catcher
+  - glove
+  - mound
+  - strike zone
+  obj_rel_triples:
+  - <baseball, thrown by, pitcher>
+  - <pitcher, throws, baseball>
+  - <pitcher, aims at, strike zone>
+  - <batter, tries to hit, baseball>
+  - <catcher, catches, baseball>
+  - <catcher, wears, glove>
+  - <pitcher, stands on, mound>
+  - <mound, is located in, baseball field>
+  - <strike zone, is defined by, umpire>
+  act_obj_triples:
+  - <baseball pitch, involves, baseball>
+  - <baseball pitch, performed by, pitcher>
+  - <baseball pitch, targeted at, strike zone>
+  - <baseball pitch, challenged by, batter>
+  - <baseball pitch, caught by, catcher>
+  - <baseball pitch, requires, glove>
+  - <baseball pitch, takes place on, mound>
+  sub_act_en_li:
+  - windup
+  - grip
+  - stride
+  - release
+  - follow-through
+  act_rel_triples:
+  - <baseball pitch, starts with, windup>
+  - <windup, precedes, grip>
+  - <grip, precedes, stride>
+  - <stride, precedes, release>
+  - <release, precedes, follow-through>
+
+basketball:
+  label: basketball
+  obj_en_li:
+  - basketball
+  - basketball court
+  - hoop
+  - net
+  - players
+  - referee
+  - scoreboard
+  obj_rel_triples:
+  - <basketball, used in, basketball game>
+  - <basketball game, played on, basketball court>
+  - <hoop, attached to, basketball court>
+  - <net, attached to, hoop>
+  - <players, participate in, basketball game>
+  - <referee, officiates, basketball game>
+  - <scoreboard, keeps track of, basketball game>
+  act_obj_triples:
+  - <basketball, used in, basketball game>
+  - <basketball game, played on, basketball court>
+  - <hoop, involved in, basketball game>
+  - <net, attached to, hoop>
+  - <players, participate in, basketball game>
+  - <referee, officiates, basketball game>
+  - <scoreboard, used in, basketball game>
+  sub_act_en_li:
+  - dribbling the basketball
+  - shooting the basketball
+  - passing the basketball
+  - rebounding the basketball
+  - defending the opponent
+  - scoring points
+  act_rel_triples:
+  - <basketball, involves, dribbling the basketball>
+  - <dribbling the basketball, precedes, shooting the basketball>
+  - <shooting the basketball, precedes, scoring points>
+  - <passing the basketball, precedes, shooting the basketball>
+  - <rebounding the basketball, follows, shooting the basketball>
+  - <defending the opponent, involves, rebounding the basketball>
+  - <scoring points, involves, shooting the basketball>
+
+basketball dunk:
+  label: basketball dunk
+  obj_en_li:
+  - basketball
+  - hoop
+  - player
+  - hand
+  - rim
+  obj_rel_triples:
+  - <basketball, thrown towards, hoop>
+  - <hoop, attached to, rim>
+  - <player, jumps, hand>
+  - <player, attempts, basketball dunk>
+  act_obj_triples:
+  - <basketball dunk, involves, basketball>
+  - <basketball dunk, requires, hoop>
+  - <basketball dunk, needs, player>
+  - <basketball dunk, utilizes, hand>
+  - <basketball dunk, requires, rim>
+  sub_act_en_li:
+  - running towards the hoop
+  - jumping
+  - grabbing the basketball
+  - raising the hand
+  - aiming for the hoop
+  - releasing the basketball
+  act_rel_triples:
+  - <basketball dunk, starts with, running towards the hoop>
+  - <running towards the hoop, precedes, jumping>
+  - <jumping, precedes, grabbing the basketball>
+  - <grabbing the basketball, precedes, raising the hand>
+  - <raising the hand, precedes, aiming for the hoop>
+  - <aiming for the hoop, precedes, releasing the basketball>
+
+bench press:
+  label: bench press
+  obj_en_li:
+  - barbell
+  - weights
+  - bench
+  - spotter
+  - body
+  obj_rel_triples:
+  - <barbell, placed on, bench>
+  - <weights, added to, barbell>
+  - <bench, used for, bench press>
+  - <spotter, assists in, bench press>
+  - <body, lies on, bench>
+  act_obj_triples:
+  - <bench press, involves, barbell>
+  - <bench press, requires, weights>
+  - <bench press, uses, bench>
+  - <bench press, involves, spotter>
+  - <bench press, requires, body>
+  sub_act_en_li:
+  - lying on the bench
+  - gripping the barbell
+  - lifting the barbell
+  - lowering the barbell
+  - repeating the movement
+  act_rel_triples:
+  - <bench press, starts with, lying on the bench>
+  - <lying on the bench, precedes, gripping the barbell>
+  - <gripping the barbell, precedes, lifting the barbell>
+  - <lifting the barbell, precedes, lowering the barbell>
+  - <lowering the barbell, precedes, repeating the movement>
+
+biking:
+  label: biking
+  obj_en_li:
+  - bicycle
+  - helmet
+  - road
+  - pedals
+  - handlebars
+  - wheels
+  - brakes
+  obj_rel_triples:
+  - <bicycle, ridden on, road>
+  - <bicycle, equipped with, pedals>
+  - <bicycle, has, handlebars>
+  - <bicycle, has, wheels>
+  - <bicycle, has, brakes>
+  - <helmet, worn during, biking>
+  act_obj_triples:
+  - <biking, involves, bicycle>
+  - <biking, requires, helmet>
+  - <biking, takes place on, road>
+  - <biking, utilizes, pedals>
+  - <biking, uses, handlebars>
+  - <biking, relies on, wheels>
+  - <biking, utilizes, brakes>
+  sub_act_en_li:
+  - mounting the bicycle
+  - pedaling
+  - steering
+  - braking
+  - dismounting the bicycle
+  act_rel_triples:
+  - <biking, starts with, mounting the bicycle>
+  - <mounting the bicycle, precedes, pedaling>
+  - <pedaling, precedes, steering>
+  - <steering, precedes, braking>
+  - <braking, precedes, dismounting the bicycle>
+
+billiards:
+  label: billiards
+  obj_en_li:
+  - billiard table
+  - cue stick
+  - cue ball
+  - numbered balls
+  - pockets
+  obj_rel_triples:
+  - <billiard table, has, pockets>
+  - <cue stick, used to hit, cue ball>
+  - <cue ball, hits, numbered balls>
+  - <numbered balls, go into, pockets>
+  act_obj_triples:
+  - <billiards, played on, billiard table>
+  - <billiards, requires, cue stick>
+  - <billiards, involves, cue ball>
+  - <billiards, uses, numbered balls>
+  - <billiards, utilizes, pockets>
+  sub_act_en_li:
+  - setting up the balls
+  - breaking the rack
+  - aiming and shooting
+  - sinking the balls
+  - keeping score
+  act_rel_triples:
+  - <billiards, starts with, setting up the balls>
+  - <setting up the balls, precedes, breaking the rack>
+  - <breaking the rack, precedes, aiming and shooting>
+  - <aiming and shooting, precedes, sinking the balls>
+  - <sinking the balls, precedes, keeping score>
+
+blow dry hair:
+  label: blow dry hair
+  obj_en_li:
+  - hair
+  - blow dryer
+  - hand
+  - brush
+  obj_rel_triples:
+  - <hair, dried with, blow dryer>
+  - <blow dryer, held by, hand>
+  - <hand, holds, brush>
+  - <brush, used on, hair>
+  - <hair, is styled with, brush>
+  act_obj_triples:
+  - <blow dry hair, involves, hair>
+  - <blow dry hair, uses, blow dryer>
+  - <blow dry hair, requires, hand>
+  - <blow dry hair, needs, brush>
+  sub_act_en_li:
+  - plugging in the blow dryer
+  - turning on the blow dryer
+  - sectioning the hair
+  - holding the blow dryer
+  - directing the airflow to the hair
+  - brushing the hair while blow drying
+  act_rel_triples:
+  - <blow dry hair, starts with, plugging in the blow dryer>
+  - <plugging in the blow dryer, precedes, turning on the blow dryer>
+  - <turning on the blow dryer, precedes, sectioning the hair>
+  - <sectioning the hair, precedes, holding the blow dryer>
+  - <holding the blow dryer, precedes, directing the airflow to the hair>
+  - <directing the airflow to the hair, precedes, brushing the hair while blow drying>
+
+blowing candles:
+  label: blowing candles
+  obj_en_li:
+  - candles
+  - cake
+  - breath
+  - mouth
+  - hand
+  obj_rel_triples:
+  - <candles, placed on, cake>
+  - <candles, extinguished by, breath>
+  - <cake, held by, hand>
+  - <hand, supports, cake>
+  - <breath, used for, blowing candles>
+  - <mouth, directs, breath>
+  act_obj_triples:
+  - <blowing candles, involves, candles>
+  - <blowing candles, requires, cake>
+  - <blowing candles, utilizes, breath>
+  - <blowing candles, needs, hand>
+  - <blowing candles, requires, mouth>
+  sub_act_en_li:
+  - lighting the candles
+  - singing the birthday song
+  - making a wish
+  - blowing out the candles
+  act_rel_triples:
+  - <blowing candles, starts with, lighting the candles>
+  - <lighting the candles, precedes, singing the birthday song>
+  - <singing the birthday song, precedes, making a wish>
+  - <making a wish, precedes, blowing out the candles>
+
+body weight squats:
+  label: body weight squats
+  obj_en_li:
+  - body
+  - legs
+  - feet
+  - ground
+  obj_rel_triples:
+  - <body, performs, body weight squats>
+  - <legs, are used in, body weight squats>
+  - <feet, are positioned on, ground>
+  act_obj_triples:
+  - <body weight squats, involves, body>
+  - <body weight squats, utilizes, legs>
+  - <body weight squats, requires, feet>
+  - <body weight squats, takes place on, ground>
+  sub_act_en_li:
+  - standing upright
+  - bending the knees
+  - lowering the body
+  - pushing through the heels
+  - returning to the starting position
+  act_rel_triples:
+  - <body weight squats, starts with, standing upright>
+  - <standing upright, precedes, bending the knees>
+  - <bending the knees, precedes, lowering the body>
+  - <lowering the body, precedes, pushing through the heels>
+  - <pushing through the heels, precedes, returning to the starting position>
+
+bowling:
+  label: bowling
+  obj_en_li:
+  - bowling ball
+  - bowling pins
+  - bowling alley
+  - bowling shoes
+  - bowling score sheet
+  obj_rel_triples:
+  - <bowling ball, thrown at, bowling pins>
+  - <bowling pins, arranged in, bowling alley>
+  - <bowling shoes, worn by, bowler>
+  - <bowling score sheet, used to keep track of, bowling score>
+  act_obj_triples:
+  - <bowling, involves, bowling ball>
+  - <bowling, targets, bowling pins>
+  - <bowling, takes place in, bowling alley>
+  - <bowling, requires, bowling shoes>
+  - <bowling, uses, bowling score sheet>
+  sub_act_en_li:
+  - selecting a bowling ball
+  - approaching the lane
+  - positioning the body
+  - swinging the arm
+  - releasing the ball
+  - watching the ball hit the pins
+  - keeping score
+  act_rel_triples:
+  - <bowling, starts with, selecting a bowling ball>
+  - <selecting a bowling ball, precedes, approaching the lane>
+  - <approaching the lane, precedes, positioning the body>
+  - <positioning the body, precedes, swinging the arm>
+  - <swinging the arm, precedes, releasing the ball>
+  - <releasing the ball, precedes, watching the ball hit the pins>
+  - <watching the ball hit the pins, precedes, keeping score>
+
+boxing punching bag:
+  label: boxing punching bag
+  obj_en_li:
+  - punching bag
+  - boxing gloves
+  - hand
+  - body
+  - feet
+  obj_rel_triples:
+  - <punching bag, is used with, boxing gloves>
+  - <boxing gloves, worn on, hand>
+  - <hand, strikes, punching bag>
+  - <body, moves while, boxing punching bag>
+  - <feet, provide stability during, boxing punching bag>
+  act_obj_triples:
+  - <boxing punching bag, involves, punching bag>
+  - <boxing punching bag, requires, boxing gloves>
+  - <boxing punching bag, needs, hand>
+  - <boxing punching bag, involves, body>
+  - <boxing punching bag, utilizes, feet>
+  sub_act_en_li:
+  - putting on boxing gloves
+  - approaching the punching bag
+  - throwing punches
+  - moving the body
+  - maintaining balance
+  act_rel_triples:
+  - <boxing punching bag, starts with, putting on boxing gloves>
+  - <putting on boxing gloves, precedes, approaching the punching bag>
+  - <approaching the punching bag, precedes, throwing punches>
+  - <throwing punches, precedes, moving the body>
+  - <moving the body, precedes, maintaining balance>
+
+boxing speed bag:
+  label: boxing speed bag
+  obj_en_li:
+  - speed bag
+  - boxing gloves
+  - hand
+  - punching bag stand
+  obj_rel_triples:
+  - <speed bag, attached to, punching bag stand>
+  - <boxing gloves, worn on, hand>
+  - <hand, hits, speed bag>
+  - <hand, holds, boxing gloves>
+  - <punching bag stand, supports, speed bag>
+  act_obj_triples:
+  - <boxing speed bag, involves, speed bag>
+  - <boxing speed bag, requires, boxing gloves>
+  - <boxing speed bag, needs, hand>
+  - <boxing speed bag, utilizes, punching bag stand>
+  sub_act_en_li:
+  - putting on boxing gloves
+  - approaching the speed bag
+  - hitting the speed bag
+  - maintaining rhythm and speed
+  - releasing punches
+  - stepping back
+  act_rel_triples:
+  - <boxing speed bag, starts with, putting on boxing gloves>
+  - <putting on boxing gloves, precedes, approaching the speed bag>
+  - <approaching the speed bag, precedes, hitting the speed bag>
+  - <hitting the speed bag, precedes, maintaining rhythm and speed>
+  - <maintaining rhythm and speed, precedes, releasing punches>
+  - <releasing punches, precedes, stepping back>
+
+breast stroke:
+  label: breast stroke
+  obj_en_li:
+  - swimmer
+  - arms
+  - legs
+  - water
+  - pool
+  obj_rel_triples:
+  - <swimmer, performs, breast stroke>
+  - <arms, move in, breast stroke>
+  - <legs, kick in, breast stroke>
+  - <water, surrounds, swimmer>
+  - <swimmer, swims in, pool>
+  act_obj_triples:
+  - <breast stroke, performed by, swimmer>
+  - <breast stroke, involves, arms>
+  - <breast stroke, involves, legs>
+  - <breast stroke, takes place in, water>
+  - <breast stroke, takes place in, pool>
+  sub_act_en_li:
+  - arm movement
+  - leg kick
+  - body glide
+  - breathing
+  act_rel_triples:
+  - <breast stroke, starts with, arm movement>
+  - <arm movement, precedes, leg kick>
+  - <leg kick, precedes, body glide>
+  - <body glide, precedes, breathing>
+
+brushing teeth:
+  label: brushing teeth
+  obj_en_li: 
+  - toothbrush
+  - toothpaste
+  - water
+  - mouth
+  - sink
+  obj_rel_triples: 
+  - <toothbrush, used with, toothpaste>
+  - <toothbrush, rinsed with, water>
+  - <toothbrush, in, mouth>
+  - <mouth, rinsed with, water>
+  - <water, used at, sink>
+  act_obj_triples: 
+  - <brushing teeth, involves, toothbrush>
+  - <brushing teeth, requires, toothpaste>
+  - <brushing teeth, needs, water>
+  - <brushing teeth, involves, mouth>
+  - <brushing teeth, utilizes, sink>
+  sub_act_en_li:
+  - applying toothpaste to the toothbrush
+  - wetting the toothbrush with water
+  - brushing the teeth
+  - rinsing the mouth with water
+  - spitting out the water
+  act_rel_triples: 
+  - <brushing teeth, starts with, applying toothpaste to the toothbrush>
+  - <applying toothpaste to the toothbrush, precedes, wetting the toothbrush with water>
+  - <wetting the toothbrush with water, precedes, brushing the teeth>
+  - <brushing the teeth, precedes, rinsing the mouth with water>
+  - <rinsing the mouth with water, precedes, spitting out the water>
+
+clean and jerk:
+  label: clean and jerk
+  obj_en_li:
+  - barbell
+  - weights
+  - platform
+  - chalk
+  - weightlifting belt
+  - weightlifting shoes
+  - grip
+  - shoulders
+  - legs
+  - arms
+  obj_rel_triples:
+  - <barbell, loaded with, weights>
+  - <barbell, placed on, platform>
+  - <chalk, used for, grip>
+  - <weightlifting belt, worn on, waist>
+  - <weightlifting shoes, worn on, feet>
+  - <grip, on, barbell>
+  - <shoulders, support, barbell>
+  - <legs, provide power for, lift>
+  - <arms, lift, barbell>
+  act_obj_triples:
+  - <clean and jerk, involves, barbell>
+  - <clean and jerk, requires, platform>
+  - <clean and jerk, uses, chalk>
+  - <clean and jerk, requires, weightlifting belt>
+  - <clean and jerk, requires, weightlifting shoes>
+  - <clean and jerk, involves, grip>
+  - <clean and jerk, utilizes, shoulders>
+  - <clean and jerk, utilizes, legs>
+  - <clean and jerk, utilizes, arms>
+  sub_act_en_li:
+  - setting up the barbell
+  - gripping the barbell
+  - cleaning the barbell
+  - jerking the barbell
+  act_rel_triples:
+  - <clean and jerk, starts with, setting up the barbell>
+  - <setting up the barbell, precedes, gripping the barbell>
+  - <gripping the barbell, precedes, cleaning the barbell>
+  - <cleaning the barbell, precedes, jerking the barbell>
+
+cliff diving:
+  label: cliff diving
+  obj_en_li:
+  - cliff
+  - water
+  - diving board
+  - swimsuit
+  - helmet
+  - life jacket
+  obj_rel_triples:
+  - <cliff, located near, water>
+  - <diving board, attached to, cliff>
+  - <diving board, used for, cliff diving>
+  - <swimsuit, worn during, cliff diving>
+  - <helmet, worn during, cliff diving>
+  - <life jacket, worn during, cliff diving>
+  act_obj_triples:
+  - <cliff diving, takes place at, cliff>
+  - <cliff diving, involves, water>
+  - <cliff diving, requires, diving board>
+  - <cliff diving, requires, swimsuit>
+  - <cliff diving, requires, helmet>
+  - <cliff diving, requires, life jacket>
+  sub_act_en_li:
+  - climbing to the top of the cliff
+  - preparing for the dive
+  - jumping off the cliff
+  - entering the water
+  act_rel_triples:
+  - <cliff diving, starts with, climbing to the top of the cliff>
+  - <climbing to the top of the cliff, precedes, preparing for the dive>
+  - <preparing for the dive, precedes, jumping off the cliff>
+  - <jumping off the cliff, precedes, entering the water>
+
+cricket bowling:
+  label: cricket bowling
+  obj_en_li:
+  - cricket ball
+  - bowling crease
+  - bowler
+  - batsman
+  - wicket
+  - stumps
+  - run-up
+  obj_rel_triples:
+  - <cricket ball, bowled by, bowler>
+  - <bowler, stands at, bowling crease>
+  - <bowler, aims at, batsman>
+  - <batsman, defends with, cricket bat>
+  - <batsman, tries to hit, cricket ball>
+  - <cricket ball, hits, wicket>
+  - <wicket, consists of, stumps>
+  - <bowler, starts from, run-up>
+  act_obj_triples:
+  - <cricket bowling, involves, cricket ball>
+  - <cricket bowling, takes place at, bowling crease>
+  - <cricket bowling, performed by, bowler>
+  - <cricket bowling, targets, batsman>
+  - <cricket bowling, interacts with, wicket>
+  - <cricket bowling, requires, run-up>
+  sub_act_en_li:
+  - run-up
+  - gripping the ball
+  - aiming at the batsman
+  - releasing the ball
+  - following through
+  act_rel_triples:
+  - <cricket bowling, starts with, run-up>
+  - <run-up, precedes, gripping the ball>
+  - <gripping the ball, precedes, aiming at the batsman>
+  - <aiming at the batsman, precedes, releasing the ball>
+  - <releasing the ball, precedes, following through>
+
+cricket shot:
+  label: cricket shot
+  obj_en_li:
+  - cricket bat
+  - cricket ball
+  - field
+  - wicket
+  - boundary
+  obj_rel_triples:
+  - <cricket bat, hits, cricket ball>
+  - <cricket ball, bowled by, bowler>
+  - <cricket ball, aimed at, wicket>
+  - <field, surrounds, boundary>
+  - <wicket, defended by, batsman>
+  act_obj_triples:
+  - <cricket shot, requires, cricket bat>
+  - <cricket shot, involves, cricket ball>
+  - <cricket shot, takes place in, field>
+  - <cricket shot, aims at, boundary>
+  - <cricket shot, defends, wicket>
+  sub_act_en_li:
+  - taking stance
+  - watching the bowler
+  - judging the line and length
+  - deciding the shot
+  - swinging the bat
+  - making contact with the ball
+  act_rel_triples:
+  - <cricket shot, starts with, taking stance>
+  - <taking stance, precedes, watching the bowler>
+  - <watching the bowler, precedes, judging the line and length>
+  - <judging the line and length, precedes, deciding the shot>
+  - <deciding the shot, precedes, swinging the bat>
+  - <swinging the bat, precedes, making contact with the ball>
+
+cutting in kitchen:
+  label: cutting in kitchen
+  obj_en_li:
+  - knife
+  - cutting board
+  - food
+  - hand
+  - kitchen counter
+  obj_rel_triples:
+  - <knife, used on, cutting board>
+  - <food, placed on, cutting board>
+  - <hand, holds, knife>
+  - <hand, guides, knife>
+  - <knife, used on, food>
+  - <food, prepared on, cutting board>
+  - <cutting board, placed on, kitchen counter>
+  act_obj_triples:
+  - <cutting in kitchen, involves, knife>
+  - <cutting in kitchen, uses, cutting board>
+  - <cutting in kitchen, requires, food>
+  - <cutting in kitchen, needs, hand>
+  - <cutting in kitchen, utilizes, kitchen counter>
+  sub_act_en_li:
+  - selecting the food
+  - preparing the cutting board
+  - holding the knife
+  - guiding the knife
+  - cutting the food
+  - placing the cut food aside
+  - cleaning the cutting board
+  act_rel_triples:
+  - <cutting in kitchen, starts with, selecting the food>
+  - <selecting the food, precedes, preparing the cutting board>
+  - <preparing the cutting board, precedes, holding the knife>
+  - <holding the knife, precedes, guiding the knife>
+  - <guiding the knife, precedes, cutting the food>
+  - <cutting the food, precedes, placing the cut food aside>
+  - <placing the cut food aside, precedes, cleaning the cutting board>
+
+diving:
+  label: diving
+  obj_en_li:
+  - water
+  - diving board
+  - swimsuit
+  - goggles
+  - nose clip
+  - towel
+  - pool
+  obj_rel_triples:
+  - <diving, into, water>
+  - <diving, from, diving board>
+  - <diving, requires, swimsuit>
+  - <diving, uses, goggles>
+  - <diving, uses, nose clip>
+  - <diving, needs, towel>
+  - <diving, takes place in, pool>
+  act_obj_triples:
+  - <diving, involves, water>
+  - <diving, uses, diving board>
+  - <diving, requires, swimsuit>
+  - <diving, uses, goggles>
+  - <diving, uses, nose clip>
+  - <diving, needs, towel>
+  - <diving, takes place in, pool>
+  sub_act_en_li:
+  - climbing up the diving board
+  - positioning the body
+  - jumping off the diving board
+  - entering the water
+  - resurfacing
+  - swimming to the edge of the pool
+  act_rel_triples:
+  - <diving, starts with, climbing up the diving board>
+  - <climbing up the diving board, precedes, positioning the body>
+  - <positioning the body, precedes, jumping off the diving board>
+  - <jumping off the diving board, precedes, entering the water>
+  - <entering the water, precedes, resurfacing>
+  - <resurfacing, precedes, swimming to the edge of the pool>
+
+drumming:
+  label: drumming
+  obj_en_li: 
+  - drumsticks
+  - drum set
+  - hands
+  - drum
+  - rhythm
+  - beats
+  - music
+  obj_rel_triples: 
+  - <drumsticks, used with, drum set>
+  - <drumsticks, held by, hands>
+  - <hands, strike, drum>
+  - <drum, produces, rhythm>
+  - <rhythm, created by, beats>
+  - <beats, part of, music>
+  act_obj_triples: 
+  - <drumming, requires, drumsticks>
+  - <drumming, involves, drum set>
+  - <drumming, uses, hands>
+  - <drumming, involves, drum>
+  - <drumming, creates, rhythm>
+  - <drumming, contributes to, beats>
+  - <drumming, is part of, music>
+  sub_act_en_li:
+  - holding drumsticks
+  - striking the drum
+  - maintaining rhythm
+  - playing beats
+  - creating music
+  act_rel_triples: 
+  - <drumming, starts with, holding drumsticks>
+  - <holding drumsticks, precedes, striking the drum>
+  - <striking the drum, precedes, maintaining rhythm>
+  - <maintaining rhythm, precedes, playing beats>
+  - <playing beats, precedes, creating music>
+
+fencing:
+  label: fencing
+  obj_en_li:
+  - sword
+  - mask
+  - glove
+  - jacket
+  - fencing strip
+  - opponent
+  obj_rel_triples:
+  - <sword, used in, fencing>
+  - <mask, worn during, fencing>
+  - <glove, worn for, fencing>
+  - <jacket, worn for, fencing>
+  - <fencing strip, used for, fencing>
+  - <opponent, faces, fencer>
+  act_obj_triples:
+  - <fencing, involves, sword>
+  - <fencing, requires, mask>
+  - <fencing, requires, glove>
+  - <fencing, requires, jacket>
+  - <fencing, takes place on, fencing strip>
+  - <fencing, competes against, opponent>
+  sub_act_en_li:
+  - putting on the mask
+  - wearing the glove
+  - wearing the jacket
+  - picking up the sword
+  - engaging with the opponent
+  - scoring a point
+  act_rel_triples:
+  - <fencing, starts with, putting on the mask>
+  - <putting on the mask, precedes, wearing the glove>
+  - <wearing the glove, precedes, wearing the jacket>
+  - <wearing the jacket, precedes, picking up the sword>
+  - <picking up the sword, precedes, engaging with the opponent>
+  - <engaging with the opponent, precedes, scoring a point>
+
+field hockey penalty:
+  label: field hockey penalty
+  obj_en_li:
+  - ball
+  - goal
+  - player
+  - goalkeeper
+  - penalty spot
+  - stick
+  - whistle
+  obj_rel_triples:
+  - <ball, kicked towards, goal>
+  - <player, takes penalty, penalty spot>
+  - <player, uses, stick>
+  - <goalkeeper, defends, goal>
+  - <whistle, blown by, referee>
+  - <referee, signals, penalty>
+  act_obj_triples:
+  - <field hockey penalty, involves, ball>
+  - <field hockey penalty, requires, player>
+  - <field hockey penalty, involves, goalkeeper>
+  - <field hockey penalty, takes place at, penalty spot>
+  - <field hockey penalty, requires, stick>
+  - <field hockey penalty, initiated by, whistle>
+  - <field hockey penalty, signaled by, referee>
+  sub_act_en_li:
+  - setting up the penalty spot
+  - positioning the ball
+  - taking the penalty shot
+  - defending the goal
+  - blowing the whistle
+  - signaling the penalty
+  act_rel_triples:
+  - <field hockey penalty, starts with, setting up the penalty spot>
+  - <setting up the penalty spot, precedes, positioning the ball>
+  - <positioning the ball, precedes, taking the penalty shot>
+  - <taking the penalty shot, precedes, defending the goal>
+  - <defending the goal, precedes, blowing the whistle>
+  - <blowing the whistle, precedes, signaling the penalty>
+
+floor gymnastics:
+  label: floor gymnastics
+  obj_en_li:
+  - gymnast
+  - floor mat
+  - music
+  - leotard
+  - chalk
+  - shoes
+  - routine
+  obj_rel_triples:
+  - <gymnast, performs on, floor mat>
+  - <music, accompanies, routine>
+  - <leotard, worn by, gymnast>
+  - <chalk, used by, gymnast>
+  - <shoes, worn by, gymnast>
+  - <routine, consists of, various moves>
+  act_obj_triples:
+  - <floor gymnastics, performed by, gymnast>
+  - <floor gymnastics, requires, floor mat>
+  - <floor gymnastics, accompanied by, music>
+  - <floor gymnastics, requires, leotard>
+  - <floor gymnastics, utilizes, chalk>
+  - <floor gymnastics, requires, shoes>
+  - <floor gymnastics, consists of, routine>
+  sub_act_en_li:
+  - warm-up
+  - stretching
+  - tumbling passes
+  - dance elements
+  - jumps and leaps
+  - acrobatic skills
+  - choreography
+  act_rel_triples:
+  - <floor gymnastics, starts with, warm-up>
+  - <warm-up, precedes, stretching>
+  - <stretching, precedes, tumbling passes>
+  - <tumbling passes, precedes, dance elements>
+  - <dance elements, precedes, jumps and leaps>
+  - <jumps and leaps, precedes, acrobatic skills>
+  - <acrobatic skills, precedes, choreography>
+
+frisbee catch:
+  label: frisbee catch
+  obj_en_li:
+  - frisbee
+  - hand
+  - eyes
+  - body
+  - ground
+  obj_rel_triples:
+  - <frisbee, caught by, hand>
+  - <hand, follows the movement of, frisbee>
+  - <hand, coordinates with, eyes>
+  - <hand, interacts with, body>
+  - <frisbee, lands on, ground>
+  act_obj_triples:
+  - <frisbee catch, involves, frisbee>
+  - <frisbee catch, requires, hand>
+  - <frisbee catch, requires, eyes>
+  - <frisbee catch, involves, body>
+  - <frisbee catch, ends with, frisbee landing on ground>
+  sub_act_en_li:
+  - tracking the frisbee
+  - positioning the hand
+  - timing the catch
+  - closing the hand around the frisbee
+  - absorbing the impact
+  act_rel_triples:
+  - <frisbee catch, starts with, tracking the frisbee>
+  - <tracking the frisbee, precedes, positioning the hand>
+  - <positioning the hand, precedes, timing the catch>
+  - <timing the catch, precedes, closing the hand around the frisbee>
+  - <closing the hand around the frisbee, precedes, absorbing the impact>
+
+front crawl:
+  label: front crawl
+  obj_en_li:
+  - swimmer
+  - water
+  - arms
+  - legs
+  - breathing
+  - pool
+  obj_rel_triples:
+  - <swimmer, moves through, water>
+  - <arms, perform, front crawl>
+  - <legs, kick in, front crawl>
+  - <breathing, is coordinated with, front crawl>
+  - <pool, is used for, front crawl>
+  act_obj_triples:
+  - <front crawl, performed by, swimmer>
+  - <front crawl, takes place in, water>
+  - <front crawl, involves, arms>
+  - <front crawl, involves, legs>
+  - <front crawl, coordinated with, breathing>
+  - <front crawl, takes place in, pool>
+  sub_act_en_li:
+  - arm stroke
+  - leg kick
+  - breathing technique
+  act_rel_triples:
+  - <front crawl, consists of, arm stroke>
+  - <front crawl, consists of, leg kick>
+  - <front crawl, coordinated with, breathing technique>
+
+golf swing:
+  label: golf swing
+  obj_en_li:
+  - golf club
+  - golf ball
+  - tee
+  - golf course
+  - body
+  obj_rel_triples:
+  - <golf club, hits, golf ball>
+  - <golf ball, placed on, tee>
+  - <golf ball, aimed at, golf course>
+  - <body, performs, golf swing>
+  act_obj_triples:
+  - <golf swing, involves, golf club>
+  - <golf swing, involves, golf ball>
+  - <golf swing, requires, tee>
+  - <golf swing, takes place on, golf course>
+  - <golf swing, performed by, body>
+  sub_act_en_li:
+  - gripping the golf club
+  - addressing the ball
+  - backswing
+  - downswing
+  - impact
+  - follow-through
+  act_rel_triples:
+  - <golf swing, starts with, gripping the golf club>
+  - <gripping the golf club, precedes, addressing the ball>
+  - <addressing the ball, precedes, backswing>
+  - <backswing, precedes, downswing>
+  - <downswing, precedes, impact>
+  - <impact, precedes, follow-through>
+
+haircut:
+  label: haircut
+  obj_en_li:
+  - hair
+  - scissors
+  - comb
+  - mirror
+  - chair
+  - cape
+  - hair salon
+  obj_rel_triples:
+  - <hair, cut with, scissors>
+  - <hair, styled with, comb>
+  - <hair, reflected in, mirror>
+  - <person, sits on, chair>
+  - <person, wears, cape>
+  - <haircut, performed at, hair salon>
+  act_obj_triples:
+  - <haircut, involves, hair>
+  - <haircut, uses, scissors>
+  - <haircut, uses, comb>
+  - <haircut, requires, mirror>
+  - <haircut, requires, chair>
+  - <haircut, requires, cape>
+  - <haircut, takes place at, hair salon>
+  sub_act_en_li:
+  - sitting on the chair
+  - wearing the cape
+  - cutting the hair
+  - styling the hair
+  - looking in the mirror
+  act_rel_triples:
+  - <haircut, starts with, sitting on the chair>
+  - <sitting on the chair, precedes, wearing the cape>
+  - <wearing the cape, precedes, cutting the hair>
+  - <cutting the hair, precedes, styling the hair>
+  - <styling the hair, precedes, looking in the mirror>
+
+
+hammering:
+  label: hammering
+  obj_en_li:
+  - hammer
+  - nail
+  - surface
+  obj_rel_triples:
+  - <hammer, used to, hammer>
+  - <nail, hammered into, surface>
+  act_obj_triples:
+  - <hammering, involves, hammer>
+  - <hammering, uses, nail>
+  - <hammering, requires, surface>
+  sub_act_en_li:
+  - gripping the hammer
+  - positioning the nail
+  - striking the nail with the hammer
+  act_rel_triples:
+  - <hammering, starts with, gripping the hammer>
+  - <gripping the hammer, precedes, positioning the nail>
+  - <positioning the nail, precedes, striking the nail with the hammer>
+
+hammer throw:
+  label: hammer throw
+  obj_en_li:
+  - hammer
+  - athlete
+  - throwing circle
+  - field
+  - target
+  obj_rel_triples:
+  - <hammer, held by, athlete>
+  - <athlete, performs, hammer throw>
+  - <athlete, stands in, throwing circle>
+  - <throwing circle, located in, field>
+  - <field, used for, hammer throw>
+  - <target, aimed at, field>
+  act_obj_triples:
+  - <hammer throw, involves, hammer>
+  - <hammer throw, performed by, athlete>
+  - <hammer throw, takes place in, throwing circle>
+  - <hammer throw, conducted in, field>
+  - <hammer throw, targets, field>
+  sub_act_en_li:
+  - gripping the hammer
+  - winding up
+  - rotating the body
+  - releasing the hammer
+  act_rel_triples:
+  - <hammer throw, starts with, gripping the hammer>
+  - <gripping the hammer, precedes, winding up>
+  - <winding up, precedes, rotating the body>
+  - <rotating the body, precedes, releasing the hammer>
+
+
+hand stand pushups:
+  label: hand stand pushups
+  obj_en_li: 
+  - hands
+  - head
+  - feet
+  - wall
+  - floor
+  obj_rel_triples: 
+  - <hands, support, body>
+  - <head, positioned against, wall>
+  - <feet, against, wall>
+  - <feet, elevated from, floor>
+  - <wall, used for, support>
+  - <floor, used for, stability>
+  act_obj_triples: 
+  - <hand stand pushups, requires, hands>
+  - <hand stand pushups, involves, head>
+  - <hand stand pushups, involves, feet>
+  - <hand stand pushups, utilizes, wall>
+  - <hand stand pushups, utilizes, floor>
+  sub_act_en_li:
+  - positioning hands against the wall
+  - kicking up into a handstand
+  - lowering the head towards the floor
+  - pushing back up to the starting position
+  act_rel_triples: 
+  - <hand stand pushups, starts with, positioning hands against the wall>
+  - <positioning hands against the wall, precedes, kicking up into a handstand>
+  - <kicking up into a handstand, precedes, lowering the head towards the floor>
+  - <lowering the head towards the floor, precedes, pushing back up to the starting position>
+
+handstand walking:
+  label: handstand walking
+  obj_en_li:
+  - hands
+  - feet
+  - balance
+  - core strength
+  - coordination
+  obj_rel_triples:
+  - <hands, support, body>
+  - <feet, elevated, in the air>
+  - <balance, maintained by, core strength>
+  - <balance, requires, coordination>
+  act_obj_triples:
+  - <handstand walking, relies on, hands>
+  - <handstand walking, involves, feet>
+  - <handstand walking, requires, balance>
+  - <handstand walking, depends on, core strength>
+  - <handstand walking, requires, coordination>
+  sub_act_en_li:
+  - getting into a handstand position
+  - balancing on the hands
+  - walking with the hands
+  act_rel_triples:
+  - <handstand walking, starts with, getting into a handstand position>
+  - <getting into a handstand position, precedes, balancing on the hands>
+  - <balancing on the hands, precedes, walking with the hands>
+
+head massage:
+  label: head massage
+  obj_en_li:
+  - head
+  - hands
+  - oil
+  - fingers
+  - scalp
+  obj_rel_triples:
+  - <head, is massaged by, hands>
+  - <hands, apply, oil>
+  - <hands, use, fingers>
+  - <fingers, touch, scalp>
+  act_obj_triples:
+  - <head massage, involves, head>
+  - <head massage, requires, hands>
+  - <head massage, uses, oil>
+  - <head massage, utilizes, fingers>
+  - <head massage, targets, scalp>
+  sub_act_en_li:
+  - applying oil to hands
+  - rubbing hands together
+  - placing hands on the head
+  - applying pressure to the scalp
+  - massaging the scalp in circular motions
+  act_rel_triples:
+  - <head massage, starts with, applying oil to hands>
+  - <applying oil to hands, precedes, rubbing hands together>
+  - <rubbing hands together, precedes, placing hands on the head>
+  - <placing hands on the head, precedes, applying pressure to the scalp>
+  - <applying pressure to the scalp, precedes, massaging the scalp in circular motions>
+
+high jump:
+  label: high jump
+  obj_en_li:
+  - athlete
+  - bar
+  - mat
+  - take-off point
+  - landing area
+  obj_rel_triples:
+  - <athlete, jumps over, bar>
+  - <athlete, lands on, mat>
+  - <bar, placed on, take-off point>
+  - <mat, placed on, landing area>
+  act_obj_triples:
+  - <high jump, involves, athlete>
+  - <high jump, uses, bar>
+  - <high jump, requires, mat>
+  - <high jump, needs, take-off point>
+  - <high jump, utilizes, landing area>
+  sub_act_en_li:
+  - approach run
+  - take-off
+  - clearance
+  - landing
+  act_rel_triples:
+  - <high jump, starts with, approach run>
+  - <approach run, precedes, take-off>
+  - <take-off, precedes, clearance>
+  - <clearance, precedes, landing>
+
+horse race:
+  label: horse race
+  obj_en_li:
+  - horses
+  - jockeys
+  - race track
+  - starting gate
+  - finish line
+  - spectators
+  - betting slips
+  obj_rel_triples:
+  - <horses, compete in, horse race>
+  - <jockeys, ride, horses>
+  - <race track, used for, horse race>
+  - <starting gate, marks the beginning of, horse race>
+  - <finish line, marks the end of, horse race>
+  - <spectators, watch, horse race>
+  - <betting slips, used by, spectators>
+  act_obj_triples:
+  - <horse race, involves, horses>
+  - <horse race, involves, jockeys>
+  - <horse race, takes place on, race track>
+  - <horse race, starts at, starting gate>
+  - <horse race, ends at, finish line>
+  - <horse race, watched by, spectators>
+  - <horse race, involves, betting slips>
+  sub_act_en_li:
+  - preparing the horses
+  - mounting the horses
+  - lining up at the starting gate
+  - starting the race
+  - racing towards the finish line
+  - crossing the finish line
+  act_rel_triples:
+  - <horse race, starts with, preparing the horses>
+  - <preparing the horses, precedes, mounting the horses>
+  - <mounting the horses, precedes, lining up at the starting gate>
+  - <lining up at the starting gate, precedes, starting the race>
+  - <starting the race, precedes, racing towards the finish line>
+  - <racing towards the finish line, precedes, crossing the finish line>
+
+horse riding:
+  label: horse riding
+  obj_en_li:
+  - horse
+  - saddle
+  - reins
+  - stirrups
+  - helmet
+  - boots
+  - whip
+  obj_rel_triples:
+  - <horse, is ridden with, saddle>
+  - <reins, held by, rider>
+  - <stirrups, used by, rider>
+  - <helmet, worn by, rider>
+  - <boots, worn by, rider>
+  - <whip, used by, rider>
+  act_obj_triples:
+  - <horse riding, involves, horse>
+  - <horse riding, requires, saddle>
+  - <horse riding, uses, reins>
+  - <horse riding, utilizes, stirrups>
+  - <horse riding, requires, helmet>
+  - <horse riding, needs, boots>
+  - <horse riding, uses, whip>
+  sub_act_en_li:
+  - mounting the horse
+  - adjusting the saddle
+  - holding the reins
+  - placing feet in the stirrups
+  - wearing the helmet
+  - putting on the boots
+  - using the whip
+  act_rel_triples:
+  - <horse riding, starts with, mounting the horse>
+  - <mounting the horse, precedes, adjusting the saddle>
+  - <adjusting the saddle, precedes, holding the reins>
+  - <holding the reins, precedes, placing feet in the stirrups>
+  - <placing feet in the stirrups, precedes, wearing the helmet>
+  - <wearing the helmet, precedes, putting on the boots>
+  - <putting on the boots, precedes, using the whip>
+
+hula hoop:
+  label: hula hoop
+  obj_en_li: 
+  - hula hoop
+  - waist
+  - hips
+  - hands
+  - body
+  obj_rel_triples: 
+  - <hula hoop, is held by, hands>
+  - <hula hoop, rotates around, waist>
+  - <waist, moves, hips>
+  - <hips, control, hula hoop>
+  - <body, is involved in, hula hoop>
+  act_obj_triples: 
+  - <hula hoop, requires, waist>
+  - <hula hoop, involves, hips>
+  - <hula hoop, needs, hands>
+  - <hula hoop, involves, body>
+  sub_act_en_li:
+  - picking up the hula hoop
+  - placing the hula hoop around the waist
+  - rotating the hips
+  - keeping the hula hoop spinning
+  act_rel_triples: 
+  - <hula hoop, starts with, picking up the hula hoop>
+  - <picking up the hula hoop, precedes, placing the hula hoop around the waist>
+  - <placing the hula hoop around the waist, precedes, rotating the hips>
+  - <rotating the hips, precedes, keeping the hula hoop spinning>
+
+ice dancing:
+  label: ice dancing
+  obj_en_li:
+  - ice rink
+  - ice skates
+  - music
+  - costume
+  - partner
+  - choreography
+  - jumps
+  - spins
+  obj_rel_triples:
+  - <ice dancing, performed on, ice rink>
+  - <ice dancing, requires, ice skates>
+  - <ice dancing, accompanied by, music>
+  - <ice dancing, involves, costume>
+  - <ice dancing, performed with, partner>
+  - <ice dancing, includes, choreography>
+  - <ice dancing, includes, jumps>
+  - <ice dancing, includes, spins>
+  act_obj_triples:
+  - <ice dancing, performed on, ice rink>
+  - <ice dancing, requires, ice skates>
+  - <ice dancing, accompanied by, music>
+  - <ice dancing, involves, costume>
+  - <ice dancing, performed with, partner>
+  - <ice dancing, includes, choreography>
+  - <ice dancing, includes, jumps>
+  - <ice dancing, includes, spins>
+  sub_act_en_li:
+  - putting on ice skates
+  - warming up on the ice
+  - practicing footwork
+  - learning choreography
+  - performing jumps and spins
+  - executing lifts and throws
+  act_rel_triples:
+  - <ice dancing, starts with, putting on ice skates>
+  - <putting on ice skates, precedes, warming up on the ice>
+  - <warming up on the ice, precedes, practicing footwork>
+  - <practicing footwork, precedes, learning choreography>
+  - <learning choreography, precedes, performing jumps and spins>
+  - <performing jumps and spins, precedes, executing lifts and throws>
+
+javelin throw:
+  label: javelin throw
+  obj_en_li: 
+  - javelin
+  - athlete
+  - throwing area
+  - runway
+  - arm
+  - hand
+  - grip
+  - release
+  obj_rel_triples: 
+  - <javelin, held by, hand>
+  - <javelin, has, grip>
+  - <athlete, performs, javelin throw>
+  - <athlete, uses, arm>
+  - <athlete, uses, hand>
+  - <javelin throw, takes place in, throwing area>
+  - <javelin throw, starts from, runway>
+  - <javelin throw, involves, javelin>
+  - <javelin throw, involves, athlete>
+  - <javelin throw, involves, arm>
+  - <javelin throw, involves, hand>
+  - <javelin throw, involves, grip>
+  - <javelin throw, involves, release>
+  act_obj_triples: 
+  - <javelin throw, involves, javelin>
+  - <javelin throw, involves, athlete>
+  - <javelin throw, takes place in, throwing area>
+  - <javelin throw, starts from, runway>
+  - <javelin throw, requires, arm>
+  - <javelin throw, requires, hand>
+  - <javelin throw, requires, grip>
+  - <javelin throw, requires, release>
+  sub_act_en_li:
+  - gripping the javelin
+  - running on the runway
+  - building momentum
+  - planting the foot
+  - swinging the arm
+  - releasing the javelin
+  act_rel_triples: 
+  - <javelin throw, starts with, gripping the javelin>
+  - <gripping the javelin, precedes, running on the runway>
+  - <running on the runway, precedes, building momentum>
+  - <building momentum, precedes, planting the foot>
+  - <planting the foot, precedes, swinging the arm>
+  - <swinging the arm, precedes, releasing the javelin>
+
+juggling balls:
+  label: juggling balls
+  obj_en_li: 
+  - balls
+  - hands
+  obj_rel_triples: 
+  - <balls, are thrown and caught by, hands>
+  act_obj_triples: 
+  - <juggling balls, involves, balls>
+  - <juggling balls, requires, hands>
+  sub_act_en_li:
+  - throwing a ball
+  - catching a ball
+  act_rel_triples: 
+  - <juggling balls, starts with, throwing a ball>
+  - <throwing a ball, precedes, catching a ball>
+
+
+jumping jack:
+  label: jumping jack
+  obj_en_li:
+  - body
+  - arms
+  - legs
+  - feet
+  - floor
+  obj_rel_triples:
+  - <body, moves, arms>
+  - <body, moves, legs>
+  - <legs, touch, floor>
+  - <feet, touch, floor>
+  act_obj_triples:
+  - <jumping jack, involves, body>
+  - <jumping jack, involves, arms>
+  - <jumping jack, involves, legs>
+  - <jumping jack, involves, feet>
+  - <jumping jack, requires, floor>
+  sub_act_en_li:
+  - spreading arms and legs
+  - jumping up
+  - bringing arms and legs together
+  - landing on the floor
+  act_rel_triples:
+  - <jumping jack, starts with, spreading arms and legs>
+  - <spreading arms and legs, precedes, jumping up>
+  - <jumping up, precedes, bringing arms and legs together>
+  - <bringing arms and legs together, precedes, landing on the floor>
+
+jump rope:
+  label: jump rope
+  obj_en_li:
+  - rope
+  - feet
+  - hands
+  - ground
+  - body
+  obj_rel_triples:
+  - <rope, held by, hands>
+  - <rope, touches, ground>
+  - <feet, jump over, rope>
+  - <feet, touch, ground>
+  - <body, moves up and down, while jumping rope>
+  act_obj_triples:
+  - <jump rope, involves, rope>
+  - <jump rope, requires, feet>
+  - <jump rope, uses, hands>
+  - <jump rope, takes place on, ground>
+  - <jump rope, engages, body>
+  sub_act_en_li:
+  - holding the rope
+  - swinging the rope
+  - jumping over the rope
+  - landing on the ground
+  - repeating the process
+  act_rel_triples:
+  - <jump rope, starts with, holding the rope>
+  - <holding the rope, precedes, swinging the rope>
+  - <swinging the rope, precedes, jumping over the rope>
+  - <jumping over the rope, precedes, landing on the ground>
+  - <landing on the ground, precedes, repeating the process>
+
+kayaking:
+  label: kayaking
+  obj_en_li: 
+  - kayak
+  - paddle
+  - water
+  - life jacket
+  - helmet
+  - river
+  - lake
+  obj_rel_triples: 
+  - <kayak, propelled by, paddle>
+  - <kayak, floats on, water>
+  - <kayak, requires, life jacket>
+  - <kayak, requires, helmet>
+  - <kayak, navigates on, river>
+  - <kayak, navigates on, lake>
+  act_obj_triples: 
+  - <kayaking, involves, kayak>
+  - <kayaking, uses, paddle>
+  - <kayaking, takes place on, water>
+  - <kayaking, requires, life jacket>
+  - <kayaking, requires, helmet>
+  - <kayaking, takes place on, river>
+  - <kayaking, takes place on, lake>
+  sub_act_en_li:
+  - getting into the kayak
+  - paddling forward
+  - steering the kayak
+  - balancing the kayak
+  - navigating through obstacles
+  - getting out of the kayak
+  act_rel_triples: 
+  - <kayaking, starts with, getting into the kayak>
+  - <getting into the kayak, precedes, paddling forward>
+  - <paddling forward, precedes, steering the kayak>
+  - <steering the kayak, precedes, balancing the kayak>
+  - <balancing the kayak, precedes, navigating through obstacles>
+  - <navigating through obstacles, precedes, getting out of the kayak>
+
+knitting:
+  label: knitting
+  obj_en_li:
+  - yarn
+  - knitting needles
+  - hands
+  - knitting pattern
+  - finished product
+  obj_rel_triples:
+  - <yarn, used with, knitting needles>
+  - <knitting needles, held by, hands>
+  - <knitting pattern, followed to create, finished product>
+  act_obj_triples:
+  - <knitting, requires, yarn>
+  - <knitting, uses, knitting needles>
+  - <knitting, involves, hands>
+  - <knitting, follows, knitting pattern>
+  - <knitting, produces, finished product>
+  sub_act_en_li:
+  - casting on
+  - knitting stitches
+  - purling stitches
+  - changing colors
+  - binding off
+  act_rel_triples:
+  - <knitting, starts with, casting on>
+  - <casting on, precedes, knitting stitches>
+  - <knitting stitches, alternates with, purling stitches>
+  - <knitting stitches, can involve, changing colors>
+  - <knitting stitches, ends with, binding off>
+
+long jump:
+  label: long jump
+  obj_en_li:
+  - athlete
+  - runway
+  - takeoff board
+  - sand pit
+  - measuring tape
+  obj_rel_triples:
+  - <athlete, performs, long jump>
+  - <athlete, runs on, runway>
+  - <athlete, takes off from, takeoff board>
+  - <athlete, lands in, sand pit>
+  - <measuring tape, used to measure, long jump distance>
+  act_obj_triples:
+  - <long jump, performed by, athlete>
+  - <long jump, takes place on, runway>
+  - <long jump, involves, takeoff board>
+  - <long jump, ends in, sand pit>
+  - <long jump, measured by, measuring tape>
+  sub_act_en_li:
+  - running on the runway
+  - approaching the takeoff board
+  - jumping off the takeoff board
+  - flying through the air
+  - landing in the sand pit
+  - measuring the jump distance
+  act_rel_triples:
+  - <long jump, starts with, running on the runway>
+  - <running on the runway, precedes, approaching the takeoff board>
+  - <approaching the takeoff board, precedes, jumping off the takeoff board>
+  - <jumping off the takeoff board, precedes, flying through the air>
+  - <flying through the air, precedes, landing in the sand pit>
+  - <landing in the sand pit, precedes, measuring the jump distance>
+
+lunges:
+  label: lunges
+  obj_en_li:
+  - body
+  - legs
+  - floor
+  - mat
+  - dumbbells
+  obj_rel_triples:
+  - <body, performs, lunges>
+  - <legs, are used in, lunges>
+  - <floor, is where, lunges are done>
+  - <mat, can be used for, lunges>
+  - <dumbbells, can be held during, lunges>
+  act_obj_triples:
+  - <lunges, involves, body>
+  - <lunges, uses, legs>
+  - <lunges, is done on, floor>
+  - <lunges, can be done on, mat>
+  - <lunges, can be done with, dumbbells>
+  sub_act_en_li:
+  - standing upright
+  - stepping forward
+  - bending the knees
+  - lowering the body
+  - pushing back up
+  act_rel_triples:
+  - <lunges, starts with, standing upright>
+  - <standing upright, precedes, stepping forward>
+  - <stepping forward, precedes, bending the knees>
+  - <bending the knees, precedes, lowering the body>
+  - <lowering the body, precedes, pushing back up>
+
+military parade:
+  label: military parade
+  obj_en_li:
+  - soldiers
+  - military vehicles
+  - flags
+  - uniforms
+  - weapons
+  - marching band
+  - spectators
+  obj_rel_triples:
+  - <soldiers, march in, military parade>
+  - <military vehicles, drive in, military parade>
+  - <flags, carried by, soldiers>
+  - <uniforms, worn by, soldiers>
+  - <weapons, carried by, soldiers>
+  - <marching band, plays music during, military parade>
+  - <spectators, watch, military parade>
+  act_obj_triples:
+  - <military parade, involves, soldiers>
+  - <military parade, includes, military vehicles>
+  - <military parade, features, flags>
+  - <military parade, requires, uniforms>
+  - <military parade, involves, weapons>
+  - <military parade, includes, marching band>
+  - <military parade, attracts, spectators>
+  sub_act_en_li:
+  - assembling the soldiers
+  - preparing the military vehicles
+  - raising the flags
+  - putting on the uniforms
+  - equipping the weapons
+  - practicing the marching band
+  - inviting the spectators
+  act_rel_triples:
+  - <military parade, starts with, assembling the soldiers>
+  - <assembling the soldiers, precedes, preparing the military vehicles>
+  - <preparing the military vehicles, precedes, raising the flags>
+  - <raising the flags, precedes, putting on the uniforms>
+  - <putting on the uniforms, precedes, equipping the weapons>
+  - <equipping the weapons, precedes, practicing the marching band>
+  - <practicing the marching band, precedes, inviting the spectators>
+
+mixing:
+  label: mixing
+  obj_en_li:
+  - ingredients
+  - bowl
+  - spoon
+  - batter
+  - mixture
+  - dough
+  - sauce
+  obj_rel_triples:
+  - <ingredients, placed in, bowl>
+  - <bowl, stirred with, spoon>
+  - <batter, formed by mixing, ingredients>
+  - <mixture, created by mixing, ingredients>
+  - <dough, made by mixing, ingredients>
+  - <sauce, prepared by mixing, ingredients>
+  act_obj_triples:
+  - <mixing, involves, ingredients>
+  - <mixing, requires, bowl>
+  - <mixing, uses, spoon>
+  - <mixing, produces, batter>
+  - <mixing, creates, mixture>
+  - <mixing, results in, dough>
+  - <mixing, prepares, sauce>
+  sub_act_en_li:
+  - placing ingredients in the bowl
+  - stirring the ingredients with a spoon
+  - forming batter
+  - creating a mixture
+  - making dough
+  - preparing sauce
+  act_rel_triples:
+  - <mixing, starts with, placing ingredients in the bowl>
+  - <placing ingredients in the bowl, precedes, stirring the ingredients with a spoon>
+  - <stirring the ingredients with a spoon, precedes, forming batter>
+  - <forming batter, precedes, creating a mixture>
+  - <creating a mixture, precedes, making dough>
+  - <making dough, precedes, preparing sauce>
+
+mopping floor:
+  label: mopping floor
+  obj_en_li: 
+  - mop
+  - bucket
+  - water
+  - floor
+  - dirt
+  obj_rel_triples: 
+  - <mop, dipped into, bucket>
+  - <bucket, filled with, water>
+  - <mop, used to clean, floor>
+  - <floor, covered with, dirt>
+  act_obj_triples: 
+  - <mopping floor, involves, mop>
+  - <mopping floor, requires, bucket>
+  - <mopping floor, needs, water>
+  - <mopping floor, cleans, floor>
+  - <mopping floor, removes, dirt>
+  sub_act_en_li:
+  - filling the bucket with water
+  - dipping the mop into the bucket
+  - wringing out the mop
+  - mopping the floor
+  - rinsing the mop
+  act_rel_triples: 
+  - <mopping floor, starts with, filling the bucket with water>
+  - <filling the bucket with water, precedes, dipping the mop into the bucket>
+  - <dipping the mop into the bucket, precedes, wringing out the mop>
+  - <wringing out the mop, precedes, mopping the floor>
+  - <mopping the floor, precedes, rinsing the mop>
+
+nunchucks:
+  label: nunchucks
+  obj_en_li: 
+  - nunchucks
+  - chain
+  - handles
+  - martial artist
+  obj_rel_triples: 
+  - <nunchucks, connected by, chain>
+  - <nunchucks, has, handles>
+  - <martial artist, uses, nunchucks>
+  act_obj_triples: 
+  - <nunchucks, involves, chain>
+  - <nunchucks, requires, handles>
+  - <nunchucks, used by, martial artist>
+  sub_act_en_li:
+  - gripping the handles
+  - swinging the nunchucks
+  - striking with the nunchucks
+  - spinning the nunchucks
+  act_rel_triples: 
+  - <nunchucks, starts with, gripping the handles>
+  - <gripping the handles, precedes, swinging the nunchucks>
+  - <swinging the nunchucks, precedes, striking with the nunchucks>
+  - <striking with the nunchucks, precedes, spinning the nunchucks>
+
+parallel bars:
+  label: parallel bars
+  obj_en_li:
+  - gymnast
+  - bars
+  - hands
+  - body
+  - strength
+  - balance
+  - core muscles
+  obj_rel_triples:
+  - <gymnast, performs on, parallel bars>
+  - <parallel bars, used by, hands>
+  - <parallel bars, support, body>
+  - <parallel bars, require, strength>
+  - <parallel bars, require, balance>
+  - <parallel bars, engage, core muscles>
+  act_obj_triples:
+  - <parallel bars, involves, gymnast>
+  - <parallel bars, used by, hands>
+  - <parallel bars, support, body>
+  - <parallel bars, require, strength>
+  - <parallel bars, require, balance>
+  - <parallel bars, engage, core muscles>
+  sub_act_en_li:
+  - mounting the bars
+  - gripping the bars
+  - performing swings
+  - executing dips
+  - performing handstands
+  - dismounting from the bars
+  act_rel_triples:
+  - <parallel bars, starts with, mounting the bars>
+  - <mounting the bars, precedes, gripping the bars>
+  - <gripping the bars, precedes, performing swings>
+  - <performing swings, precedes, executing dips>
+  - <executing dips, precedes, performing handstands>
+  - <performing handstands, precedes, dismounting from the bars>
+
+pizza tossing:
+  label: pizza tossing
+  obj_en_li:
+  - pizza dough
+  - hands
+  - air
+  - surface
+  obj_rel_triples:
+  - <pizza dough, touched by, hands>
+  - <pizza dough, thrown in, air>
+  - <pizza dough, lands on, surface>
+  act_obj_triples:
+  - <pizza tossing, involves, pizza dough>
+  - <pizza tossing, requires, hands>
+  - <pizza tossing, utilizes, air>
+  - <pizza tossing, requires, surface>
+  sub_act_en_li:
+  - preparing pizza dough
+  - stretching pizza dough
+  - tossing pizza dough in the air
+  - catching pizza dough
+  - landing pizza dough on the surface
+  act_rel_triples:
+  - <pizza tossing, starts with, preparing pizza dough>
+  - <preparing pizza dough, precedes, stretching pizza dough>
+  - <stretching pizza dough, precedes, tossing pizza dough in the air>
+  - <tossing pizza dough in the air, precedes, catching pizza dough>
+  - <catching pizza dough, precedes, landing pizza dough on the surface>
+
+playing cello:
+  label: playing cello
+  obj_en_li: 
+  - cello
+  - bow
+  - strings
+  - fingers
+  - music sheet
+  - chair
+  - rosin
+  obj_rel_triples: 
+  - <cello, played with, bow>
+  - <bow, drawn across, strings>
+  - <fingers, press on, strings>
+  - <music sheet, read by, player>
+  - <player, sits on, chair>
+  - <bow, coated with, rosin>
+  act_obj_triples: 
+  - <playing cello, involves, cello>
+  - <playing cello, uses, bow>
+  - <playing cello, interacts with, strings>
+  - <playing cello, requires, fingers>
+  - <playing cello, refers to, music sheet>
+  - <playing cello, requires, chair>
+  - <playing cello, applies rosin to, bow>
+  sub_act_en_li:
+  - holding the cello
+  - positioning the bow
+  - plucking the strings
+  - pressing the fingers on the strings
+  - reading the music sheet
+  - sitting on the chair
+  - applying rosin to the bow
+  act_rel_triples: 
+  - <playing cello, starts with, holding the cello>
+  - <holding the cello, precedes, positioning the bow>
+  - <positioning the bow, precedes, plucking the strings>
+  - <plucking the strings, precedes, pressing the fingers on the strings>
+  - <pressing the fingers on the strings, precedes, reading the music sheet>
+  - <reading the music sheet, precedes, sitting on the chair>
+  - <sitting on the chair, precedes, applying rosin to the bow>
+
+playing daf:
+  label: playing daf
+  obj_en_li:
+  - daf
+  - hands
+  - fingers
+  - rhythm
+  - music
+  - audience
+  obj_rel_triples:
+  - <daf, played with, hands>
+  - <hands, strike, daf>
+  - <hands, controlled by, fingers>
+  - <rhythm, created by, hands>
+  - <music, accompanies, playing daf>
+  - <playing daf, entertains, audience>
+  act_obj_triples:
+  - <playing daf, involves, daf>
+  - <playing daf, requires, hands>
+  - <playing daf, utilizes, fingers>
+  - <playing daf, creates, rhythm>
+  - <playing daf, accompanied by, music>
+  - <playing daf, entertains, audience>
+  sub_act_en_li:
+  - holding the daf
+  - striking the daf with hands
+  - controlling the rhythm with fingers
+  - playing the daf in sync with the music
+  act_rel_triples:
+  - <playing daf, starts with, holding the daf>
+  - <holding the daf, precedes, striking the daf with hands>
+  - <striking the daf with hands, precedes, controlling the rhythm with fingers>
+  - <controlling the rhythm with fingers, precedes, playing the daf in sync with the music>
+
+playing dhol:
+  label: playing dhol
+  obj_en_li: 
+  - dhol
+  - sticks
+  - hands
+  - rhythm
+  - beats
+  - music
+  obj_rel_triples: 
+  - <dhol, played with, sticks>
+  - <sticks, held by, hands>
+  - <hands, create, rhythm>
+  - <rhythm, produces, beats>
+  - <beats, contribute to, music>
+  act_obj_triples: 
+  - <playing dhol, involves, dhol>
+  - <playing dhol, uses, sticks>
+  - <playing dhol, requires, hands>
+  - <playing dhol, creates, rhythm>
+  - <playing dhol, produces, beats>
+  - <playing dhol, contributes to, music>
+  sub_act_en_li:
+  - holding the dhol
+  - striking the dhol with sticks
+  - creating rhythm with hands
+  - producing beats
+  - playing music
+  act_rel_triples: 
+  - <playing dhol, starts with, holding the dhol>
+  - <holding the dhol, precedes, striking the dhol with sticks>
+  - <striking the dhol with sticks, precedes, creating rhythm with hands>
+  - <creating rhythm with hands, precedes, producing beats>
+  - <producing beats, precedes, playing music>
+
+playing flute:
+  label: playing flute
+  obj_en_li: 
+  - flute
+  - fingers
+  - mouth
+  - breath
+  - notes
+  - melody
+  obj_rel_triples: 
+  - <flute, played by, fingers>
+  - <flute, blown into, mouth>
+  - <flute, produces, notes>
+  - <notes, create, melody>
+  act_obj_triples: 
+  - <playing flute, involves, flute>
+  - <playing flute, requires, fingers>
+  - <playing flute, requires, mouth>
+  - <playing flute, utilizes, breath>
+  - <playing flute, produces, notes>
+  - <playing flute, creates, melody>
+  sub_act_en_li:
+  - holding the flute
+  - positioning the fingers on the flute
+  - blowing into the flute
+  - producing different notes
+  - playing a melody
+  act_rel_triples: 
+  - <playing flute, starts with, holding the flute>
+  - <holding the flute, precedes, positioning the fingers on the flute>
+  - <positioning the fingers on the flute, precedes, blowing into the flute>
+  - <blowing into the flute, precedes, producing different notes>
+  - <producing different notes, precedes, playing a melody>
+
+playing guitar:
+  label: playing guitar
+  obj_en_li: 
+  - guitar
+  - fingers
+  - strings
+  - pick
+  - sound
+  - amplifier
+  - music sheet
+  obj_rel_triples: 
+  - <guitar, played by, fingers>
+  - <fingers, pluck, strings>
+  - <strings, produce, sound>
+  - <guitar, can be amplified by, amplifier>
+  - <guitar, played with, pick>
+  - <music sheet, used for, playing guitar>
+  act_obj_triples: 
+  - <playing guitar, involves, guitar>
+  - <playing guitar, requires, fingers>
+  - <playing guitar, uses, strings>
+  - <playing guitar, needs, pick>
+  - <playing guitar, produces, sound>
+  - <playing guitar, can be amplified by, amplifier>
+  - <playing guitar, can be guided by, music sheet>
+  sub_act_en_li:
+  - holding the guitar
+  - positioning the fingers on the strings
+  - strumming or picking the strings
+  - creating chords
+  - playing melodies or solos
+  - using guitar effects
+  act_rel_triples: 
+  - <playing guitar, starts with, holding the guitar>
+  - <holding the guitar, precedes, positioning the fingers on the strings>
+  - <positioning the fingers on the strings, precedes, strumming or picking the strings>
+  - <strumming or picking the strings, precedes, creating chords>
+  - <creating chords, precedes, playing melodies or solos>
+  - <playing guitar, can be enhanced by, using guitar effects>
+
+playing piano:
+  label: playing piano
+  obj_en_li: 
+  - piano
+  - hands
+  - sheet music
+  - stool
+  - pedals
+  - fingers
+  obj_rel_triples: 
+  - <piano, played by, hands>
+  - <sheet music, used by, hands>
+  - <stool, used for, sitting>
+  - <pedals, operated by, feet>
+  - <fingers, used to press, piano keys>
+  act_obj_triples: 
+  - <playing piano, involves, piano>
+  - <playing piano, requires, hands>
+  - <playing piano, uses, sheet music>
+  - <playing piano, requires, stool>
+  - <playing piano, utilizes, pedals>
+  - <playing piano, involves, fingers>
+  sub_act_en_li:
+  - sitting on the stool
+  - placing hands on the piano keys
+  - reading the sheet music
+  - pressing the piano keys with fingers
+  - operating the pedals with feet
+  act_rel_triples: 
+  - <playing piano, starts with, sitting on the stool>
+  - <sitting on the stool, precedes, placing hands on the piano keys>
+  - <placing hands on the piano keys, precedes, reading the sheet music>
+  - <reading the sheet music, precedes, pressing the piano keys with fingers>
+  - <pressing the piano keys with fingers, precedes, operating the pedals with feet>
+
+playing sitar:
+  label: playing sitar
+  obj_en_li:
+  - sitar
+  - musician
+  - fingers
+  - strings
+  - melody
+  - rhythm
+  - notes
+  obj_rel_triples:
+  - <sitar, played by, musician>
+  - <musician, uses, fingers>
+  - <fingers, pluck, strings>
+  - <strings, produce, melody>
+  - <melody, accompanied by, rhythm>
+  - <melody, composed of, notes>
+  act_obj_triples:
+  - <playing sitar, involves, sitar>
+  - <playing sitar, requires, musician>
+  - <playing sitar, uses, fingers>
+  - <playing sitar, produces, melody>
+  - <playing sitar, accompanied by, rhythm>
+  - <playing sitar, creates, notes>
+  sub_act_en_li:
+  - tuning the sitar
+  - plucking the strings
+  - playing the melody
+  - maintaining the rhythm
+  - improvising with notes
+  act_rel_triples:
+  - <playing sitar, starts with, tuning the sitar>
+  - <tuning the sitar, precedes, plucking the strings>
+  - <plucking the strings, precedes, playing the melody>
+  - <playing the melody, precedes, maintaining the rhythm>
+  - <maintaining the rhythm, precedes, improvising with notes>
+
+playing tabla:
+  label: playing tabla
+  obj_en_li:
+  - tabla
+  - hands
+  - fingers
+  - drumstick
+  - rhythm
+  - sound
+  obj_rel_triples:
+  - <tabla, played with, hands>
+  - <hands, strike, tabla>
+  - <fingers, used to play, tabla>
+  - <drumstick, used to play, tabla>
+  - <tabla, produces, sound>
+  - <sound, creates, rhythm>
+  act_obj_triples:
+  - <playing tabla, involves, tabla>
+  - <playing tabla, requires, hands>
+  - <playing tabla, utilizes, fingers>
+  - <playing tabla, uses, drumstick>
+  - <playing tabla, creates, sound>
+  - <playing tabla, produces, rhythm>
+  sub_act_en_li:
+  - holding the tabla
+  - striking the tabla with hands
+  - playing different strokes with fingers
+  - playing with a drumstick
+  - creating rhythm
+  act_rel_triples:
+  - <playing tabla, starts with, holding the tabla>
+  - <holding the tabla, precedes, striking the tabla with hands>
+  - <striking the tabla with hands, precedes, playing different strokes with fingers>
+  - <playing different strokes with fingers, precedes, playing with a drumstick>
+  - <playing with a drumstick, precedes, creating rhythm>
+
+playing violin:
+  label: playing violin
+  obj_en_li:
+  - violin
+  - bow
+  - strings
+  - fingers
+  - chinrest
+  - shoulder rest
+  - sheet music
+  obj_rel_triples:
+  - <violin, played with, bow>
+  - <bow, moves across, strings>
+  - <fingers, press on, strings>
+  - <violin, rests on, chinrest>
+  - <violin, supported by, shoulder rest>
+  - <sheet music, used for, playing violin>
+  act_obj_triples:
+  - <playing violin, involves, violin>
+  - <playing violin, uses, bow>
+  - <playing violin, interacts with, strings>
+  - <playing violin, requires, fingers>
+  - <playing violin, rests on, chinrest>
+  - <playing violin, supported by, shoulder rest>
+  - <playing violin, refers to, sheet music>
+  sub_act_en_li:
+  - holding the violin
+  - gripping the bow
+  - positioning the fingers on the strings
+  - moving the bow across the strings
+  - producing sound
+  - reading the sheet music
+  act_rel_triples:
+  - <playing violin, starts with, holding the violin>
+  - <holding the violin, precedes, gripping the bow>
+  - <gripping the bow, precedes, positioning the fingers on the strings>
+  - <positioning the fingers on the strings, precedes, moving the bow across the strings>
+  - <moving the bow across the strings, precedes, producing sound>
+  - <producing sound, precedes, reading the sheet music>
+
+pole vault:
+  label: pole vault
+  obj_en_li:
+  - pole
+  - bar
+  - mat
+  - athlete
+  - runway
+  - sandpit
+  obj_rel_triples:
+  - <pole, used in, pole vault>
+  - <bar, cleared by, athlete>
+  - <mat, placed under, bar>
+  - <athlete, performs, pole vault>
+  - <runway, used for, pole vault>
+  - <sandpit, landed on, by athlete>
+  act_obj_triples:
+  - <pole vault, requires, pole>
+  - <pole vault, involves, bar>
+  - <pole vault, utilizes, mat>
+  - <pole vault, performed by, athlete>
+  - <pole vault, takes place on, runway>
+  - <pole vault, ends with, landing on sandpit>
+  sub_act_en_li:
+  - approach run
+  - plant the pole
+  - swing up
+  - push off
+  - clear the bar
+  - descend
+  - land in the sandpit
+  act_rel_triples:
+  - <pole vault, starts with, approach run>
+  - <approach run, precedes, plant the pole>
+  - <plant the pole, precedes, swing up>
+  - <swing up, precedes, push off>
+  - <push off, precedes, clear the bar>
+  - <clear the bar, precedes, descend>
+  - <descend, precedes, land in the sandpit>
+
+pommel horse:
+  label: pommel horse
+  obj_en_li: 
+  - pommel horse
+  - gymnast
+  - hands
+  - legs
+  - body
+  - grip
+  - balance
+  obj_rel_triples: 
+  - <pommel horse, used by, gymnast>
+  - <gymnast, grips, pommel horse>
+  - <gymnast, balances on, pommel horse>
+  - <gymnast, uses, hands>
+  - <gymnast, uses, legs>
+  - <gymnast, utilizes, body>
+  act_obj_triples: 
+  - <pommel horse, requires, gymnast>
+  - <pommel horse, requires, grip>
+  - <pommel horse, requires, balance>
+  - <gymnast, uses, hands>
+  - <gymnast, uses, legs>
+  - <gymnast, utilizes, body>
+  sub_act_en_li:
+  - mounting the pommel horse
+  - swinging the legs
+  - circling the body
+  - handstand on the pommel horse
+  - dismounting from the pommel horse
+  act_rel_triples: 
+  - <pommel horse, starts with, mounting the pommel horse>
+  - <mounting the pommel horse, precedes, swinging the legs>
+  - <swinging the legs, precedes, circling the body>
+  - <circling the body, precedes, handstand on the pommel horse>
+  - <handstand on the pommel horse, precedes, dismounting from the pommel horse>
+
+pull ups:
+  label: pull ups
+  obj_en_li:
+  - pull-up bar
+  - body
+  - arms
+  - hands
+  - grip
+  obj_rel_triples:
+  - <pull-up bar, used by, body>
+  - <body, performs, pull ups>
+  - <body, uses, arms>
+  - <arms, controlled by, hands>
+  - <hands, maintain, grip>
+  act_obj_triples:
+  - <pull ups, requires, pull-up bar>
+  - <pull ups, involves, body>
+  - <pull ups, utilizes, arms>
+  - <pull ups, relies on, hands>
+  - <pull ups, depends on, grip>
+  sub_act_en_li:
+  - gripping the pull-up bar
+  - hanging from the pull-up bar
+  - pulling the body up
+  - lowering the body down
+  act_rel_triples:
+  - <pull ups, starts with, gripping the pull-up bar>
+  - <gripping the pull-up bar, precedes, hanging from the pull-up bar>
+  - <hanging from the pull-up bar, precedes, pulling the body up>
+  - <pulling the body up, precedes, lowering the body down>
+
+punch:
+  label: punch
+  obj_en_li:
+  - fist
+  - target
+  - arm
+  - face
+  - body
+  - punch bag
+  obj_rel_triples:
+  - <fist, strikes, target>
+  - <arm, propels, fist>
+  - <face, is hit by, fist>
+  - <body, generates force for, punch>
+  - <punch bag, absorbs impact from, punch>
+  act_obj_triples:
+  - <punch, involves, fist>
+  - <punch, targets, target>
+  - <punch, requires, arm>
+  - <punch, hits, face>
+  - <punch, utilizes, body>
+  - <punch, impacts, punch bag>
+  sub_act_en_li:
+  - winding up the arm
+  - extending the arm
+  - aiming at the target
+  - making contact with the target
+  - retracting the arm
+  act_rel_triples:
+  - <punch, starts with, winding up the arm>
+  - <winding up the arm, precedes, extending the arm>
+  - <extending the arm, precedes, aiming at the target>
+  - <aiming at the target, precedes, making contact with the target>
+  - <making contact with the target, precedes, retracting the arm>
+
+push ups:
+  label: push ups
+  obj_en_li:
+  - floor
+  - hands
+  - body
+  - arms
+  - chest
+  - shoulders
+  - core muscles
+  obj_rel_triples:
+  - <hands, placed on, floor>
+  - <body, supported by, hands>
+  - <arms, extended during, push ups>
+  - <chest, lowered towards, floor>
+  - <shoulders, engaged during, push ups>
+  - <core muscles, activated during, push ups>
+  act_obj_triples:
+  - <push ups, performed on, floor>
+  - <push ups, require, hands>
+  - <push ups, engage, body>
+  - <push ups, involve, arms>
+  - <push ups, target, chest>
+  - <push ups, work, shoulders>
+  - <push ups, activate, core muscles>
+  sub_act_en_li:
+  - getting into push up position
+  - lowering the body towards the floor
+  - pushing the body back up
+  act_rel_triples:
+  - <push ups, start with, getting into push up position>
+  - <getting into push up position, followed by, lowering the body towards the floor>
+  - <lowering the body towards the floor, followed by, pushing the body back up>
+
+rafting:
+  label: rafting
+  obj_en_li:
+  - raft
+  - paddle
+  - life jacket
+  - river
+  - helmet
+  - water
+  - rocks
+  obj_rel_triples:
+  - <raft, propelled by, paddle>
+  - <raft, requires, life jacket>
+  - <raft, floats on, river>
+  - <helmet, worn for, safety>
+  - <water, flows in, river>
+  - <rocks, present in, river>
+  act_obj_triples:
+  - <rafting, involves, raft>
+  - <rafting, uses, paddle>
+  - <rafting, requires, life jacket>
+  - <rafting, takes place in, river>
+  - <rafting, requires, helmet>
+  - <rafting, encounters, water>
+  - <rafting, encounters, rocks>
+  sub_act_en_li:
+  - getting on the raft
+  - paddling
+  - navigating the river
+  - avoiding rocks
+  - maintaining balance
+  - enjoying the scenery
+  act_rel_triples:
+  - <rafting, starts with, getting on the raft>
+  - <getting on the raft, precedes, paddling>
+  - <paddling, precedes, navigating the river>
+  - <navigating the river, precedes, avoiding rocks>
+  - <avoiding rocks, precedes, maintaining balance>
+  - <maintaining balance, precedes, enjoying the scenery>
+
+rock climbing indoor:
+  label: rock climbing indoor
+  obj_en_li:
+  - climbing wall
+  - climbing holds
+  - harness
+  - carabiner
+  - rope
+  - chalk bag
+  - climbing shoes
+  obj_rel_triples:
+  - <climbing wall, has, climbing holds>
+  - <harness, connected with, carabiner>
+  - <carabiner, attached to, rope>
+  - <chalk bag, contains, chalk>
+  - <climbing shoes, worn by, person>
+  - <person, uses, climbing holds>
+  act_obj_triples:
+  - <rock climbing indoor, requires, climbing wall>
+  - <rock climbing indoor, uses, climbing holds>
+  - <rock climbing indoor, needs, harness>
+  - <rock climbing indoor, utilizes, carabiner>
+  - <rock climbing indoor, involves, rope>
+  - <rock climbing indoor, utilizes, chalk bag>
+  - <rock climbing indoor, requires, climbing shoes>
+  sub_act_en_li:
+  - putting on the harness
+  - attaching the carabiner to the harness
+  - tying the rope to the carabiner
+  - applying chalk to the hands
+  - wearing climbing shoes
+  - gripping the climbing holds
+  act_rel_triples:
+  - <rock climbing indoor, starts with, putting on the harness>
+  - <putting on the harness, precedes, attaching the carabiner to the harness>
+  - <attaching the carabiner to the harness, precedes, tying the rope to the carabiner>
+  - <tying the rope to the carabiner, precedes, gripping the climbing holds>
+  - <gripping the climbing holds, precedes, applying chalk to the hands>
+  - <applying chalk to the hands, precedes, wearing climbing shoes>
+
+rope climbing:
+  label: rope climbing
+  obj_en_li:
+  - rope
+  - hands
+  - feet
+  - harness
+  - carabiner
+  - helmet
+  obj_rel_triples:
+  - <rope, held by, hands>
+  - <rope, stepped on by, feet>
+  - <harness, attached to, carabiner>
+  - <carabiner, connected to, rope>
+  - <helmet, worn on, head>
+  act_obj_triples:
+  - <rope climbing, requires, rope>
+  - <rope climbing, involves, hands>
+  - <rope climbing, involves, feet>
+  - <rope climbing, requires, harness>
+  - <rope climbing, utilizes, carabiner>
+  - <rope climbing, requires, helmet>
+  sub_act_en_li:
+  - putting on the harness
+  - attaching the carabiner to the harness
+  - gripping the rope with hands
+  - stepping on the rope with feet
+  - ascending the rope
+  - wearing the helmet
+  act_rel_triples:
+  - <rope climbing, starts with, putting on the harness>
+  - <putting on the harness, precedes, attaching the carabiner to the harness>
+  - <attaching the carabiner to the harness, precedes, gripping the rope with hands>
+  - <gripping the rope with hands, precedes, stepping on the rope with feet>
+  - <stepping on the rope with feet, precedes, ascending the rope>
+  - <ascending the rope, precedes, wearing the helmet>
+
+rowing:
+  label: rowing
+  obj_en_li:
+  - boat
+  - oars
+  - water
+  - rower
+  obj_rel_triples:
+  - <boat, propelled by, oars>
+  - <oars, used in, rowing>
+  - <rowing, takes place on, water>
+  - <rowing, performed by, rower>
+  act_obj_triples:
+  - <rowing, involves, boat>
+  - <rowing, requires, oars>
+  - <rowing, takes place on, water>
+  - <rowing, performed by, rower>
+  sub_act_en_li:
+  - getting into the boat
+  - gripping the oars
+  - pushing off from the dock
+  - rowing forward
+  - rowing backward
+  - stopping the boat
+  act_rel_triples:
+  - <rowing, starts with, getting into the boat>
+  - <getting into the boat, precedes, gripping the oars>
+  - <gripping the oars, precedes, pushing off from the dock>
+  - <pushing off from the dock, precedes, rowing forward>
+  - <rowing forward, precedes, rowing backward>
+  - <rowing backward, precedes, stopping the boat>
+
+salsa spin:
+  label: salsa spin
+  obj_en_li:
+  - partner
+  - dance floor
+  - music
+  - arms
+  - legs
+  obj_rel_triples:
+  - <partner, spins with, partner>
+  - <partner, dances on, dance floor>
+  - <music, plays on, dance floor>
+  - <arms, move with, legs>
+  act_obj_triples:
+  - <salsa spin, involves, partner>
+  - <salsa spin, takes place on, dance floor>
+  - <salsa spin, requires, music>
+  - <salsa spin, utilizes, arms>
+  - <salsa spin, utilizes, legs>
+  sub_act_en_li:
+  - finding a partner
+  - stepping onto the dance floor
+  - starting the music
+  - holding hands with the partner
+  - spinning together
+  act_rel_triples:
+  - <salsa spin, starts with, finding a partner>
+  - <finding a partner, precedes, stepping onto the dance floor>
+  - <stepping onto the dance floor, precedes, starting the music>
+  - <starting the music, precedes, holding hands with the partner>
+  - <holding hands with the partner, precedes, spinning together>
+
+shaving beard:
+  label: shaving beard
+  obj_en_li: 
+  - beard
+  - razor
+  - shaving cream
+  - mirror
+  - sink
+  obj_rel_triples: 
+  - <beard, is shaved with, razor>
+  - <beard, applied with, shaving cream>
+  - <shaving cream, applied on, beard>
+  - <mirror, used for, shaving>
+  - <sink, used for, rinsing>
+  act_obj_triples: 
+  - <shaving beard, involves, beard>
+  - <shaving beard, uses, razor>
+  - <shaving beard, requires, shaving cream>
+  - <shaving beard, utilizes, mirror>
+  - <shaving beard, utilizes, sink>
+  sub_act_en_li:
+  - applying shaving cream
+  - holding the razor
+  - shaving the beard
+  - rinsing the razor
+  - rinsing the face
+  act_rel_triples: 
+  - <shaving beard, starts with, applying shaving cream>
+  - <applying shaving cream, precedes, holding the razor>
+  - <holding the razor, precedes, shaving the beard>
+  - <shaving the beard, precedes, rinsing the razor>
+  - <rinsing the razor, precedes, rinsing the face>
+
+shotput:
+  label: shotput
+  obj_en_li:
+  - shot
+  - throwing circle
+  - athlete
+  - hand
+  - ground
+  obj_rel_triples:
+  - <shot, held by, hand>
+  - <throwing circle, used by, athlete>
+  - <athlete, stands on, ground>
+  act_obj_triples:
+  - <shotput, involves, shot>
+  - <shotput, takes place in, throwing circle>
+  - <shotput, requires, athlete>
+  - <shotput, needs, hand>
+  - <shotput, happens on, ground>
+  sub_act_en_li:
+  - gripping the shot
+  - positioning in the throwing circle
+  - winding up
+  - releasing the shot
+  act_rel_triples:
+  - <shotput, starts with, gripping the shot>
+  - <gripping the shot, precedes, positioning in the throwing circle>
+  - <positioning in the throwing circle, precedes, winding up>
+  - <winding up, precedes, releasing the shot>
+
+skate boarding:
+  label: skate boarding
+  obj_en_li: 
+  - skateboard
+  - helmet
+  - knee pads
+  - elbow pads
+  - shoes
+  - ramp
+  - rail
+  obj_rel_triples: 
+  - <skateboard, used for, skate boarding>
+  - <helmet, worn for, skate boarding>
+  - <knee pads, worn for, skate boarding>
+  - <elbow pads, worn for, skate boarding>
+  - <shoes, used for, skate boarding>
+  - <ramp, used in, skate boarding>
+  - <rail, used in, skate boarding>
+  act_obj_triples: 
+  - <skate boarding, involves, skateboard>
+  - <skate boarding, requires, helmet>
+  - <skate boarding, requires, knee pads>
+  - <skate boarding, requires, elbow pads>
+  - <skate boarding, requires, shoes>
+  - <skate boarding, utilizes, ramp>
+  - <skate boarding, utilizes, rail>
+  sub_act_en_li:
+  - putting on the helmet
+  - wearing knee pads
+  - wearing elbow pads
+  - putting on shoes
+  - getting on the skateboard
+  - pushing off with one foot
+  - balancing on the skateboard
+  - performing tricks
+  - using the ramp
+  - sliding on the rail
+  act_rel_triples: 
+  - <skate boarding, starts with, putting on the helmet>
+  - <putting on the helmet, precedes, wearing knee pads>
+  - <wearing knee pads, precedes, wearing elbow pads>
+  - <wearing elbow pads, precedes, putting on shoes>
+  - <putting on shoes, precedes, getting on the skateboard>
+  - <getting on the skateboard, precedes, pushing off with one foot>
+  - <pushing off with one foot, precedes, balancing on the skateboard>
+  - <balancing on the skateboard, precedes, performing tricks>
+  - <performing tricks, precedes, using the ramp>
+  - <performing tricks, precedes, sliding on the rail>
+
+skiing:
+  label: skiing
+  obj_en_li:
+  - skis
+  - ski boots
+  - ski poles
+  - snow
+  - mountain
+  - ski goggles
+  - ski helmet
+  obj_rel_triples:
+  - <skis, attached to, ski boots>
+  - <ski poles, used with, skis>
+  - <ski goggles, worn with, ski helmet>
+  - <ski helmet, worn for, protection>
+  - <skiing, performed on, snow>
+  - <skiing, done on, mountain>
+  act_obj_triples:
+  - <skiing, requires, skis>
+  - <skiing, needs, ski boots>
+  - <skiing, uses, ski poles>
+  - <skiing, performed on, snow>
+  - <skiing, done on, mountain>
+  - <skiing, requires, ski goggles>
+  - <skiing, needs, ski helmet>
+  sub_act_en_li:
+  - putting on ski boots
+  - attaching skis to ski boots
+  - holding ski poles
+  - sliding on snow
+  - maintaining balance
+  - wearing ski goggles
+  - wearing ski helmet
+  act_rel_triples:
+  - <skiing, starts with, putting on ski boots>
+  - <putting on ski boots, precedes, attaching skis to ski boots>
+  - <attaching skis to ski boots, precedes, holding ski poles>
+  - <holding ski poles, precedes, sliding on snow>
+  - <sliding on snow, precedes, maintaining balance>
+  - <maintaining balance, precedes, wearing ski goggles>
+  - <wearing ski goggles, precedes, wearing ski helmet>
+
+skijet:
+  label: skijet
+  obj_en_li:
+  - skijet
+  - water
+  - person
+  - life jacket
+  - helmet
+  - handlebars
+  - throttle
+  - waves
+  obj_rel_triples:
+  - <skijet, moves on, water>
+  - <person, rides, skijet>
+  - <person, wears, life jacket>
+  - <person, wears, helmet>
+  - <person, holds, handlebars>
+  - <handlebars, controls, skijet>
+  - <throttle, controls, skijet>
+  - <water, creates, waves>
+  act_obj_triples:
+  - <skijet, involves, water>
+  - <skijet, requires, person>
+  - <skijet, requires, life jacket>
+  - <skijet, requires, helmet>
+  - <skijet, requires, handlebars>
+  - <skijet, requires, throttle>
+  - <skijet, involves, waves>
+  sub_act_en_li:
+  - getting on the skijet
+  - starting the skijet
+  - accelerating on the water
+  - steering the skijet
+  - jumping over waves
+  - stopping the skijet
+  act_rel_triples:
+  - <skijet, starts with, getting on the skijet>
+  - <getting on the skijet, precedes, starting the skijet>
+  - <starting the skijet, precedes, accelerating on the water>
+  - <accelerating on the water, precedes, steering the skijet>
+  - <steering the skijet, precedes, jumping over waves>
+  - <jumping over waves, precedes, stopping the skijet>
+
+sky diving:
+  label: sky diving
+  obj_en_li:
+  - parachute
+  - airplane
+  - helmet
+  - jumpsuit
+  - goggles
+  - instructor
+  - skydiver
+  obj_rel_triples:
+  - <parachute, attached to, skydiver>
+  - <airplane, used for, sky diving>
+  - <helmet, worn by, skydiver>
+  - <jumpsuit, worn by, skydiver>
+  - <goggles, worn by, skydiver>
+  - <instructor, guides, skydiver>
+  act_obj_triples:
+  - <sky diving, requires, parachute>
+  - <sky diving, involves, airplane>
+  - <sky diving, requires, helmet>
+  - <sky diving, requires, jumpsuit>
+  - <sky diving, requires, goggles>
+  - <sky diving, involves, instructor>
+  - <sky diving, involves, skydiver>
+  sub_act_en_li:
+  - boarding the airplane
+  - ascending to the desired altitude
+  - preparing for the jump
+  - jumping out of the airplane
+  - freefalling
+  - deploying the parachute
+  - controlling the descent
+  act_rel_triples:
+  - <sky diving, starts with, boarding the airplane>
+  - <boarding the airplane, precedes, ascending to the desired altitude>
+  - <ascending to the desired altitude, precedes, preparing for the jump>
+  - <preparing for the jump, precedes, jumping out of the airplane>
+  - <jumping out of the airplane, precedes, freefalling>
+  - <freefalling, precedes, deploying the parachute>
+  - <deploying the parachute, precedes, controlling the descent>
+
+soccer juggling:
+  label: soccer juggling
+  obj_en_li:
+  - soccer ball
+  - feet
+  - legs
+  - ground
+  obj_rel_triples:
+  - <soccer ball, touched by, feet>
+  - <feet, in contact with, ground>
+  - <legs, used for, juggling>
+  act_obj_triples:
+  - <soccer juggling, involves, soccer ball>
+  - <soccer juggling, requires, feet>
+  - <soccer juggling, utilizes, legs>
+  - <soccer juggling, takes place on, ground>
+  sub_act_en_li:
+  - kicking the ball up
+  - controlling the ball with the feet
+  - keeping the ball in the air
+  act_rel_triples:
+  - <soccer juggling, starts with, kicking the ball up>
+  - <kicking the ball up, precedes, controlling the ball with the feet>
+  - <controlling the ball with the feet, precedes, keeping the ball in the air>
+
+soccer penalty:
+  label: soccer penalty
+  obj_en_li:
+  - soccer ball
+  - goal
+  - penalty spot
+  - goalkeeper
+  - referee
+  obj_rel_triples:
+  - <soccer ball, kicked towards, goal>
+  - <goal, defended by, goalkeeper>
+  - <penalty spot, marked by, referee>
+  act_obj_triples:
+  - <soccer penalty, involves, soccer ball>
+  - <soccer penalty, aims at, goal>
+  - <soccer penalty, takes place at, penalty spot>
+  - <soccer penalty, defended by, goalkeeper>
+  - <soccer penalty, overseen by, referee>
+  sub_act_en_li:
+  - approaching the penalty spot
+  - setting up the ball
+  - waiting for the referee's signal
+  - running towards the ball
+  - kicking the ball towards the goal
+  act_rel_triples:
+  - <soccer penalty, starts with, approaching the penalty spot>
+  - <approaching the penalty spot, precedes, setting up the ball>
+  - <setting up the ball, precedes, waiting for the referee's signal>
+  - <waiting for the referee's signal, precedes, running towards the ball>
+  - <running towards the ball, precedes, kicking the ball towards the goal>
+
+still rings:
+  label: still rings
+  obj_en_li:
+  - gymnast
+  - rings
+  - chalk
+  - grip
+  - strength
+  - balance
+  obj_rel_triples:
+  - <gymnast, performs on, rings>
+  - <gymnast, uses, chalk>
+  - <gymnast, needs, grip>
+  - <gymnast, requires, strength>
+  - <gymnast, requires, balance>
+  act_obj_triples:
+  - <still rings, involves, gymnast>
+  - <still rings, uses, rings>
+  - <still rings, utilizes, chalk>
+  - <still rings, requires, grip>
+  - <still rings, requires, strength>
+  - <still rings, requires, balance>
+  sub_act_en_li:
+  - mounting the rings
+  - holding the rings
+  - performing strength moves
+  - performing swinging moves
+  - dismounting from the rings
+  act_rel_triples:
+  - <still rings, starts with, mounting the rings>
+  - <mounting the rings, precedes, holding the rings>
+  - <holding the rings, precedes, performing strength moves>
+  - <holding the rings, precedes, performing swinging moves>
+  - <performing strength moves, precedes, dismounting from the rings>
+
+sumo wrestling:
+  label: sumo wrestling
+  obj_en_li:
+  - sumo wrestler
+  - dohyo (sumo ring)
+  - mawashi (sumo belt)
+  - referee
+  - audience
+  - salt
+  - shikiri-sen (starting lines)
+  obj_rel_triples:
+  - <sumo wrestler, competes in, dohyo>
+  - <sumo wrestler, wears, mawashi>
+  - <referee, officiates, sumo wrestling>
+  - <audience, watches, sumo wrestling>
+  - <sumo wrestler, throws, salt>
+  - <sumo wrestler, stands on, shikiri-sen>
+  act_obj_triples:
+  - <sumo wrestling, involves, sumo wrestler>
+  - <sumo wrestling, takes place in, dohyo>
+  - <sumo wrestling, requires, mawashi>
+  - <sumo wrestling, overseen by, referee>
+  - <sumo wrestling, observed by, audience>
+  - <sumo wrestling, includes, salt>
+  - <sumo wrestling, starts from, shikiri-sen>
+  sub_act_en_li:
+  - entering the dohyo
+  - performing shiko (leg stomping)
+  - throwing salt
+  - facing each other
+  - gripping the mawashi
+  - pushing and shoving
+  - attempting to force the opponent out of the ring
+  - winning or losing the match
+  act_rel_triples:
+  - <sumo wrestling, starts with, entering the dohyo>
+  - <entering the dohyo, followed by, performing shiko>
+  - <performing shiko, followed by, throwing salt>
+  - <throwing salt, followed by, facing each other>
+  - <facing each other, followed by, gripping the mawashi>
+  - <gripping the mawashi, followed by, pushing and shoving>
+  - <pushing and shoving, followed by, attempting to force the opponent out of the ring>
+  - <attempting to force the opponent out of the ring, followed by, winning or losing the match>
+
+surfing:
+  label: surfing
+  obj_en_li:
+  - surfboard
+  - waves
+  - ocean
+  - beach
+  - wetsuit
+  - leash
+  - fins
+  obj_rel_triples:
+  - <surfboard, used on, waves>
+  - <waves, found in, ocean>
+  - <ocean, located near, beach>
+  - <wetsuit, worn during, surfing>
+  - <leash, attached to, surfboard>
+  - <fins, attached to, surfboard>
+  act_obj_triples:
+  - <surfing, requires, surfboard>
+  - <surfing, takes place on, waves>
+  - <surfing, takes place in, ocean>
+  - <surfing, takes place near, beach>
+  - <surfing, requires, wetsuit>
+  - <surfing, uses, leash>
+  - <surfing, uses, fins>
+  sub_act_en_li:
+  - paddling out
+  - catching a wave
+  - standing up on the surfboard
+  - riding the wave
+  - performing tricks
+  - exiting the wave
+  act_rel_triples:
+  - <surfing, starts with, paddling out>
+  - <paddling out, precedes, catching a wave>
+  - <catching a wave, precedes, standing up on the surfboard>
+  - <standing up on the surfboard, precedes, riding the wave>
+  - <riding the wave, precedes, performing tricks>
+  - <performing tricks, precedes, exiting the wave>
+
+swing:
+  label: swing
+  obj_en_li:
+  - swing set
+  - child
+  - rope
+  - seat
+  - tree branch
+  - ground
+  obj_rel_triples:
+  - <swing set, has, rope>
+  - <swing set, has, seat>
+  - <rope, attached to, tree branch>
+  - <seat, used by, child>
+  - <child, sits on, seat>
+  - <seat, hangs from, rope>
+  - <swing set, stands on, ground>
+  act_obj_triples:
+  - <swing, involves, swing set>
+  - <swing, requires, child>
+  - <swing, uses, rope>
+  - <swing, uses, seat>
+  - <swing, needs, tree branch>
+  - <swing, needs, ground>
+  sub_act_en_li:
+  - approaching the swing set
+  - grabbing the rope
+  - sitting on the seat
+  - pushing off the ground
+  - swinging back and forth
+  - letting go of the rope
+  act_rel_triples:
+  - <swing, starts with, approaching the swing set>
+  - <approaching the swing set, precedes, grabbing the rope>
+  - <grabbing the rope, precedes, sitting on the seat>
+  - <sitting on the seat, precedes, pushing off the ground>
+  - <pushing off the ground, precedes, swinging back and forth>
+  - <swinging back and forth, precedes, letting go of the rope>
+
+table tennis shot:
+  label: table tennis shot
+  obj_en_li:
+  - table tennis ball
+  - table tennis racket
+  - table tennis table
+  - opponent
+  obj_rel_triples:
+  - <table tennis ball, hit by, table tennis racket>
+  - <table tennis ball, bounces on, table tennis table>
+  - <table tennis ball, aimed at, opponent>
+  act_obj_triples:
+  - <table tennis shot, involves, table tennis ball>
+  - <table tennis shot, requires, table tennis racket>
+  - <table tennis shot, takes place on, table tennis table>
+  - <table tennis shot, targets, opponent>
+  sub_act_en_li:
+  - gripping the racket
+  - positioning for the shot
+  - swinging the racket
+  - making contact with the ball
+  act_rel_triples:
+  - <table tennis shot, starts with, gripping the racket>
+  - <gripping the racket, precedes, positioning for the shot>
+  - <positioning for the shot, precedes, swinging the racket>
+  - <swinging the racket, precedes, making contact with the ball>
+
+tai chi:
+  label: tai chi
+  obj_en_li: 
+  - body
+  - mind
+  - breath
+  - movement
+  - balance
+  - energy
+  - relaxation
+  obj_rel_triples: 
+  - <body, is engaged in, movement>
+  - <mind, focuses on, breath>
+  - <balance, is maintained through, movement>
+  - <energy, flows through, body>
+  - <relaxation, is achieved through, tai chi>
+  act_obj_triples: 
+  - <tai chi, involves, body>
+  - <tai chi, requires, mind>
+  - <tai chi, incorporates, breath>
+  - <tai chi, consists of, movement>
+  - <tai chi, enhances, balance>
+  - <tai chi, channels, energy>
+  - <tai chi, promotes, relaxation>
+  sub_act_en_li:
+  - focusing on breath
+  - performing slow and controlled movements
+  - maintaining balance
+  - flowing energy through the body
+  - achieving relaxation
+  act_rel_triples: 
+  - <tai chi, starts with, focusing on breath>
+  - <focusing on breath, precedes, performing slow and controlled movements>
+  - <performing slow and controlled movements, precedes, maintaining balance>
+  - <maintaining balance, precedes, flowing energy through the body>
+  - <flowing energy through the body, precedes, achieving relaxation>
+
+tennis swing:
+  label: tennis swing
+  obj_en_li:
+  - tennis racket
+  - tennis ball
+  - arm
+  - hand
+  - body
+  obj_rel_triples:
+  - <tennis racket, hits, tennis ball>
+  - <tennis ball, is struck by, tennis racket>
+  - <arm, holds, tennis racket>
+  - <hand, grips, tennis racket>
+  - <body, provides power for, tennis swing>
+  act_obj_triples:
+  - <tennis swing, involves, tennis racket>
+  - <tennis swing, uses, tennis ball>
+  - <tennis swing, requires, arm>
+  - <tennis swing, needs, hand>
+  - <tennis swing, relies on, body>
+  sub_act_en_li:
+  - gripping the tennis racket
+  - positioning the body
+  - swinging the tennis racket
+  - hitting the tennis ball
+  act_rel_triples:
+  - <tennis swing, starts with, gripping the tennis racket>
+  - <gripping the tennis racket, precedes, positioning the body>
+  - <positioning the body, precedes, swinging the tennis racket>
+  - <swinging the tennis racket, precedes, hitting the tennis ball>
+
+throw discus:
+  label: throw discus
+  obj_en_li:
+  - discus
+  - athlete
+  - throwing area
+  - hand
+  - body
+  - ground
+  obj_rel_triples:
+  - <discus, held by, hand>
+  - <athlete, performs, throw discus>
+  - <throw discus, takes place in, throwing area>
+  - <hand, part of, body>
+  - <body, in contact with, ground>
+  act_obj_triples:
+  - <throw discus, involves, discus>
+  - <throw discus, requires, athlete>
+  - <throw discus, takes place in, throwing area>
+  - <throw discus, utilizes, hand>
+  - <throw discus, relies on, body>
+  - <throw discus, interacts with, ground>
+  sub_act_en_li:
+  - gripping the discus
+  - winding up
+  - rotating the body
+  - releasing the discus
+  act_rel_triples:
+  - <throw discus, starts with, gripping the discus>
+  - <gripping the discus, precedes, winding up>
+  - <winding up, precedes, rotating the body>
+  - <rotating the body, precedes, releasing the discus>
+
+trampoline jumping:
+  label: trampoline jumping
+  obj_en_li:
+  - trampoline
+  - jumper
+  - bounce
+  - height
+  - flips
+  - landing
+  obj_rel_triples:
+  - <trampoline, used by, jumper>
+  - <jumper, experiences, bounce>
+  - <jumper, reaches, height>
+  - <jumper, performs, flips>
+  - <jumper, lands, after jumping>
+  act_obj_triples:
+  - <trampoline jumping, involves, trampoline>
+  - <trampoline jumping, requires, jumper>
+  - <trampoline jumping, includes, bounce>
+  - <trampoline jumping, aims for, height>
+  - <trampoline jumping, allows, flips>
+  - <trampoline jumping, ends with, landing>
+  sub_act_en_li:
+  - preparing to jump
+  - bouncing on the trampoline
+  - gaining height
+  - performing flips
+  - landing safely
+  act_rel_triples:
+  - <trampoline jumping, starts with, preparing to jump>
+  - <preparing to jump, precedes, bouncing on the trampoline>
+  - <bouncing on the trampoline, precedes, gaining height>
+  - <gaining height, precedes, performing flips>
+  - <performing flips, precedes, landing safely>
+
+typing:
+  label: typing
+  obj_en_li:
+  - keyboard
+  - fingers
+  - computer
+  - screen
+  - text
+  obj_rel_triples:
+  - <keyboard, used by, fingers>
+  - <fingers, interact with, computer>
+  - <computer, displays, screen>
+  - <screen, shows, text>
+  act_obj_triples:
+  - <typing, requires, keyboard>
+  - <typing, involves, fingers>
+  - <typing, uses, computer>
+  - <typing, interacts with, screen>
+  - <typing, produces, text>
+  sub_act_en_li:
+  - pressing keys
+  - moving fingers
+  - looking at the screen
+  - reading the text
+  act_rel_triples:
+  - <typing, starts with, pressing keys>
+  - <pressing keys, precedes, moving fingers>
+  - <moving fingers, precedes, looking at the screen>
+  - <looking at the screen, precedes, reading the text>
+
+uneven bars:
+  label: uneven bars
+  obj_en_li:
+  - gymnast
+  - bars
+  - grips
+  - chalk
+  - mat
+  - spotter
+  obj_rel_triples:
+  - <gymnast, performs on, uneven bars>
+  - <gymnast, uses, grips>
+  - <gymnast, applies, chalk>
+  - <gymnast, lands on, mat>
+  - <spotter, assists, gymnast>
+  act_obj_triples:
+  - <uneven bars, used by, gymnast>
+  - <uneven bars, consist of, bars>
+  - <grips, used with, uneven bars>
+  - <chalk, applied by, gymnast>
+  - <mat, used for landing>
+  - <spotter, assists with, uneven bars>
+  sub_act_en_li:
+  - mounting the bars
+  - swinging on the bars
+  - releasing and regrasping the bars
+  - performing skills and transitions
+  - dismounting from the bars
+  act_rel_triples:
+  - <uneven bars, starts with, mounting the bars>
+  - <mounting the bars, precedes, swinging on the bars>
+  - <swinging on the bars, precedes, releasing and regrasping the bars>
+  - <releasing and regrasping the bars, precedes, performing skills and transitions>
+  - <performing skills and transitions, precedes, dismounting from the bars>
+
+volleyball spiking:
+  label: volleyball spiking
+  obj_en_li:
+  - volleyball
+  - net
+  - hand
+  - arm
+  - jump
+  - court
+  obj_rel_triples:
+  - <volleyball, goes over, net>
+  - <hand, contacts, volleyball>
+  - <arm, swings, volleyball>
+  - <jump, helps with, spiking>
+  - <court, is on, volleyball>
+  act_obj_triples:
+  - <volleyball spiking, involves, volleyball>
+  - <volleyball spiking, requires, net>
+  - <volleyball spiking, needs, hand>
+  - <volleyball spiking, utilizes, arm>
+  - <volleyball spiking, involves, jump>
+  - <volleyball spiking, takes place on, court>
+  sub_act_en_li:
+  - positioning for the spike
+  - timing the jump
+  - reaching for the ball
+  - swinging the arm
+  - contacting the ball
+  act_rel_triples:
+  - <volleyball spiking, starts with, positioning for the spike>
+  - <positioning for the spike, precedes, timing the jump>
+  - <timing the jump, precedes, reaching for the ball>
+  - <reaching for the ball, precedes, swinging the arm>
+  - <swinging the arm, precedes, contacting the ball>
+
+walking with dog:
+  label: walking with dog
+  obj_en_li: 
+  - person
+  - dog
+  - leash
+  - sidewalk
+  - park
+  obj_rel_triples: 
+  - <person, walks with, dog>
+  - <person, holds, leash>
+  - <person, walks on, sidewalk>
+  - <person, goes to, park>
+  act_obj_triples: 
+  - <walking with dog, involves, person>
+  - <walking with dog, involves, dog>
+  - <walking with dog, requires, leash>
+  - <walking with dog, takes place on, sidewalk>
+  - <walking with dog, goes to, park>
+  sub_act_en_li:
+  - putting on the leash
+  - stepping out of the house
+  - walking on the sidewalk
+  - interacting with the dog
+  - enjoying the park
+  act_rel_triples: 
+  - <walking with dog, starts with, putting on the leash>
+  - <putting on the leash, precedes, stepping out of the house>
+  - <stepping out of the house, precedes, walking on the sidewalk>
+  - <walking on the sidewalk, precedes, interacting with the dog>
+  - <interacting with the dog, precedes, enjoying the park>
+
+wall pushups:
+  label: wall pushups
+  obj_en_li:
+  - wall
+  - hands
+  - feet
+  - body
+  obj_rel_triples:
+  - <hands, placed on, wall>
+  - <feet, positioned away from, wall>
+  - <body, aligned with, wall>
+  act_obj_triples:
+  - <wall pushups, requires, wall>
+  - <wall pushups, uses, hands>
+  - <wall pushups, utilizes, feet>
+  - <wall pushups, involves, body>
+  sub_act_en_li:
+  - positioning hands on the wall
+  - positioning feet away from the wall
+  - aligning the body with the wall
+  - pushing the body towards the wall
+  - pushing the body away from the wall
+  act_rel_triples:
+  - <wall pushups, starts with, positioning hands on the wall>
+  - <positioning hands on the wall, precedes, positioning feet away from the wall>
+  - <positioning feet away from the wall, precedes, aligning the body with the wall>
+  - <aligning the body with the wall, precedes, pushing the body towards the wall>
+  - <pushing the body towards the wall, precedes, pushing the body away from the wall>
+
+writing on board:
+  label: writing on board
+  obj_en_li:
+  - board
+  - marker
+  - hand
+  - eraser
+  obj_rel_triples:
+  - <board, used with, marker>
+  - <marker, held by, hand>
+  - <hand, holds, marker>
+  - <eraser, used to erase, board>
+  act_obj_triples:
+  - <writing on board, involves, board>
+  - <writing on board, uses, marker>
+  - <writing on board, requires, hand>
+  - <writing on board, utilizes, eraser>
+  sub_act_en_li:
+  - picking up the marker
+  - approaching the board
+  - holding the marker
+  - writing on the board
+  - erasing the board
+  act_rel_triples:
+  - <writing on board, starts with, picking up the marker>
+  - <picking up the marker, precedes, approaching the board>
+  - <approaching the board, precedes, holding the marker>
+  - <holding the marker, precedes, writing on the board>
+  - <writing on the board, precedes, erasing the board>
+
+yo yo:
+  label: yo yo
+  obj_en_li:
+  - yo yo
+  - hand
+  - string
+  - finger
+  - floor
+  obj_rel_triples:
+  - <yo yo, held by, hand>
+  - <yo yo, attached to, string>
+  - <string, tied to, finger>
+  - <yo yo, thrown towards, floor>
+  act_obj_triples:
+  - <yo yo, requires, hand>
+  - <yo yo, uses, string>
+  - <string, needs, finger>
+  - <yo yo, interacts with, floor>
+  sub_act_en_li:
+  - holding the yo yo
+  - attaching the string to the yo yo
+  - tying the string to the finger
+  - throwing the yo yo towards the floor
+  act_rel_triples:
+  - <yo yo, starts with, holding the yo yo>
+  - <holding the yo yo, precedes, attaching the string to the yo yo>
+  - <attaching the string to the yo yo, precedes, tying the string to the finger>
+  - <tying the string to the finger, precedes, throwing the yo yo towards the floor>
+

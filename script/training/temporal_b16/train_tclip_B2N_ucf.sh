@@ -1,0 +1,45 @@
+ROOT=/home/yuyating/workspace/STDD
+CKPT=/data3/yuyating/CKPT
+
+cd $ROOT
+export PYTHONPATH=$ROOT/slowfast:$PYTHONPATH
+CUDA_VISIBLE_DEVICES=4,5,6,7 \
+  python -W ignore -u tools/run_net.py \
+  --cfg configs/Kinetics/TemporalCLIP_vitb16_8x16_STAdapter.yaml \
+  --opts DATA.PATH_TO_DATA_DIR $ROOT/zs_label_db/B2N_ucf101 \
+  DATA.PATH_PREFIX /data3/yuyating/dataset/OpenDataLab___UCF101/raw/videos_se256 \
+  DATA.PATH_LABEL_SEPARATOR , \
+  DATA.INDEX_LABEL_MAPPING_FILE $ROOT/zs_label_db/B2N_ucf101/raw_train_idx2cls.json \
+  DATA.TEXT_AUG True \
+  DATA.TEXT_AUG_FEATURE_FILE $CKPT/text_feats/classes_text_feats_k400_tpl8_xmix_ViT-B_16.pt \
+  TRAIN.ENABLE True \
+  OUTPUT_DIR $CKPT/STDD_ch32_ts1+2/vitb16_8x16/B2N_UCF \
+  TRAIN.BATCH_SIZE 32 \
+  TEST.BATCH_SIZE 128 \
+  TEST.NUM_ENSEMBLE_VIEWS 3 \
+  TEST.NUM_SPATIAL_CROPS 1 \
+  NUM_GPUS 4 \
+  SOLVER.MAX_EPOCH 12 \
+  SOLVER.WARMUP_EPOCHS 2.0 \
+  SOLVER.BASE_LR 3.33e-6 \
+  SOLVER.WARMUP_START_LR 3.33e-8 \
+  SOLVER.COSINE_END_LR 3.33e-8 \
+  TRAIN.MIXED_PRECISION True \
+  DATA.DECODING_BACKEND "pyav" \
+  MODEL.NUM_CLASSES 51 \
+  MODEL.TEMPORAL_MODELING_TYPE 'stcross_attend' \
+  MIXUP.ENABLE False \
+  AUG.ENABLE False \
+  AUG.NUM_SAMPLE 1 \
+  TRAIN.EVAL_PERIOD 1 \
+  TRAIN.CHECKPOINT_PERIOD 1 \
+  MODEL.LOSS_FUNC soft_cross_entropy \
+  TRAIN.LINEAR_CONNECT_CLIMB False \
+  TRAIN.LINEAR_CONNECT_LOSS_RATIO 0.0 \
+  TRAIN.CLIP_ORI_PATH /home/yuyating/.cache/clip/ViT-B-16.pt \
+  MODEL.CHANNEL_FOLD 32 \
+  MODEL.TEMPORAL_SCALE [1,2] \
+  MODEL.RAW_MODEL_DISTILLATION True \
+  MODEL.KEEP_RAW_MODEL True \
+  MODEL.DISTILLATION_RATIO 2.0 \
+  DATA_LOADER.NUM_WORKERS 4 \

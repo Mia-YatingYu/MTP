@@ -1,0 +1,130 @@
+classes:
+- Apply Eye Makeup
+- Apply Lipstick
+- Archery
+- Baby Crawling
+- Balance Beam
+- Band Marching
+- Baseball Pitch
+- Basketball
+- Basketball Dunk
+- Bench Press
+- Biking
+- Billiards
+- Blow Dry Hair
+- Blowing Candles
+- Body Weight Squats
+- Bowling
+- Boxing Punching Bag
+- Boxing Speed Bag
+- Breast Stroke
+- Brushing Teeth
+- Clean And Jerk
+- Cliff Diving
+- Cricket Bowling
+- Cricket Shot
+- Cutting In Kitchen
+- Diving
+- Drumming
+- Fencing
+- Field Hockey Penalty
+- Floor Gymnastics
+- Frisbee Catch
+- Front Crawl
+- Golf Swing
+- Haircut
+- Hammering
+- Hammer Throw
+- Hand Stand Pushups
+- Handstand Walking
+- Head Massage
+- High Jump
+- Horse Race
+- Horse Riding
+- Hula Hoop
+- Ice Dancing
+- Javelin Throw
+- Juggling Balls
+- Jumping Jack
+- Jump Rope
+- Kayaking
+- Knitting
+- Long Jump
+- Lunges
+- Military Parade
+- Mixing
+- Mopping Floor
+- Nunchucks
+- Parallel Bars
+- Pizza Tossing
+- Playing Cello
+- Playing Daf
+- Playing Dhol
+- Playing Flute
+- Playing Guitar
+- Playing Piano
+- Playing Sitar
+- Playing Tabla
+- Playing Violin
+- Pole Vault
+- Pommel Horse
+- Pull Ups
+- Punch
+- Push Ups
+- Rafting
+- Rock Climbing Indoor
+- Rope Climbing
+- Rowing
+- Salsa Spin
+- Shaving Beard
+- Shotput
+- Skate Boarding
+- Skiing
+- Skijet
+- Sky Diving
+- Soccer Juggling
+- Soccer Penalty
+- Still Rings
+- Sumo Wrestling
+- Surfing
+- Swing
+- Table Tennis Shot
+- Tai Chi
+- Tennis Swing
+- Throw Discus
+- Trampoline Jumping
+- Typing
+- Uneven Bars
+- Volleyball Spiking
+- Walking With Dog
+- Wall Pushups
+- Writing On Board
+- Yo Yo
+templates:
+- a human action of {}.
+- a video of action {}.
+- Playing action of {}.
+- Doing a kind of action {}.
+- Look, the person is {}.
+- The man is {}.
+- The woman is {}.
+- a video of a person {}.
+- Can you recognize the action of {}?
+- This video is related to {}.
+- a photo of action {}.
+- a picture of action {}.
+obj_templates:
+- Can you recognize the {} in this video?
+- This video is related to a {}.
+- This video is about a {}.
+- A {} is shown in this video.
+- There is a {} in this video.
+- A {} can be seen in this video.
+- In this video, you can see a {}.
+- A {} is most likely to be in the video.
+- Is there any sign of a {} in this video?
+- You'll find a glimpse of a {} in this video.
+- The video showcases a {} in action.
+- What do you notice about the {} in this video?
+- This video offers insights into the {}.
+- The presence of the {} is hinted at in this video.
