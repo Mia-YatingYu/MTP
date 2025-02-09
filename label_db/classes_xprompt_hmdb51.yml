@@ -1,0 +1,1095 @@
+# This is an example of brushing hair...
+brush hair:
+  label: brush hair
+  xprompt_oo:
+    - where hair is brushed with a hairbrush
+    - where a hairbrush is used for brushing hair
+    - where a hand holds a hairbrush
+  xprompt_ao:
+    - which involves a hairbrush
+    - which requires hair
+    - which needs a hand
+  xprompt_aa:
+    - starting with picking up the hairbrush
+    - where picking up the hairbrush precedes holding the hairbrush
+    - where holding the hairbrush comes before brushing the hair
+
+# This is an example of cartwheel...
+cartwheel:
+  label: cartwheel
+  xprompt_oo:
+    - where the body moves the arms
+    - where the body moves the legs
+    - where the arms are connected to the hands
+    - where the legs are connected to the feet
+  xprompt_ao:
+    - which involves the body
+    - which requires the arms
+    - which requires the legs
+    - which utilizes the hands
+    - which utilizes the feet
+  xprompt_aa:
+    - starting with raising the arms
+    - where raising the arms precedes kicking the legs
+    - where kicking the legs comes before placing the hands on the ground
+    - where placing the hands on the ground precedes rotating the body
+    - where rotating the body comes before landing on the feet
+
+# This is an example of catching...
+catch:
+  label: catch
+  xprompt_oo:
+    - where a ball is caught by a glove
+    - where a ball is thrown by a hand
+    - where a hand is used to catch a ball
+    - where an eye tracks a ball
+    - where a body is positioned to catch a ball
+  xprompt_ao:
+    - which involves a ball
+    - which requires a glove
+    - which needs a hand
+    - which relies on an eye
+    - which requires a body
+  xprompt_aa:
+    - starting with tracking the ball
+    - where tracking the ball precedes positioning the body
+    - where positioning the body comes before extending the glove
+    - where extending the glove precedes closing the glove
+
+# This is an example of chewing...
+chew:
+  label: chewing
+  xprompt_oo:
+    - where food is chewed by the teeth
+    - where food is broken down in the mouth
+    - where teeth move with the jaw
+  xprompt_ao:
+    - which involves food
+    - which requires a mouth
+    - which uses teeth
+    - which utilizes the jaw
+  xprompt_aa:
+    - starting with taking a bite
+    - where taking a bite precedes moving the jaw up and down
+    - where moving the jaw up and down comes before grinding the food with the teeth
+
+# This is an example of clap...
+clap:
+  label: clap
+  xprompt_oo:
+    - where hands produce applause
+    - where applause creates sound
+    - where the audience participates in applause
+    - where a performer receives applause
+  xprompt_ao:
+    - which involves hands
+    - which produces applause
+    - which creates sound
+    - which requires an audience
+    - which is received by a performer
+  xprompt_aa:
+    - starting with raising hands
+    - where raising hands precedes bringing hands together
+    - where bringing hands together comes before striking hands together
+    - where striking hands together precedes separating hands
+
+# This is an example of climbing...
+climb:
+  label: climb
+  xprompt_oo:
+    - where a mountain is climbed using a rope
+    - where a rock is used for climbing
+    - where a rope is attached to a harness
+    - where a harness is secured with a carabiner
+    - where a climber wears a helmet
+    - where a climber wears shoes
+  xprompt_ao:
+    - which involves a mountain
+    - which involves a rock
+    - which requires a rope
+    - which requires a harness
+    - which requires a carabiner
+    - which requires a helmet
+    - which requires shoes
+  xprompt_aa:
+    - starting with tying the rope
+    - where tying the rope precedes putting on the harness
+    - where putting on the harness comes before attaching the carabiner
+    - where attaching the carabiner precedes wearing the helmet
+    - where wearing the helmet comes before wearing the climbing shoes
+
+# This is an example of climbing stairs...
+climb stairs:
+  label: climb stairs
+  xprompt_oo:
+    - made of steps
+    - where feet are used for climbing stairs
+    - where legs are involved in climbing stairs
+    - where a handrail is used for support while climbing stairs
+    - where stairs are connected by steps
+  xprompt_ao:
+    - which involves stairs
+    - which requires feet
+    - which involves legs
+    - which utilizes a handrail
+    - which involves steps
+  xprompt_aa:
+    - starting with approaching the stairs
+    - where approaching the stairs precedes reaching for the handrail
+    - where reaching for the handrail comes before placing one foot on a step
+    - where placing one foot on a step precedes lifting the other foot
+    - where lifting the other foot comes before repeating the previous two steps
+    - where repeating the previous two steps precedes releasing the handrail
+
+dive:
+  label: dive
+  xprompt_oo:
+    - where a swimmer dives into the water
+    - where a swimmer jumps off a diving board
+    - where a diving board is located near a pool
+    - where a swimmer needs air
+  xprompt_ao:
+    - which involves water
+    - which requires a pool
+    - which uses a diving board
+    - which involves a swimmer
+    - which requires air
+  xprompt_aa:
+    - starting with climbing up the diving board
+    - where climbing up the diving board precedes positioning for the dive
+    - where positioning for the dive comes before jumping off the diving board
+    - where jumping off the diving board precedes entering the water
+
+# This is an example of draw sword...
+draw sword:
+  label: draw sword
+  xprompt_oo:
+    - where a sword is stored in a sheath
+    - where a sword is held by a hand
+    - where a sheath is attached to a belt
+  xprompt_ao:
+    - which involves a sword
+    - which requires a sheath
+    - which needs a hand
+    - which utilizes a belt
+  xprompt_aa:
+    - starting with unsheathing the sword
+    - where unsheathing the sword precedes gripping the sword handle
+    - where gripping the sword handle comes before pulling the sword out of the sheath
+
+# This is an example of dribbling...
+
+dribble:
+  label: dribble
+  xprompt_oo:
+    - where a basketball is held by the hand
+    - where the hand controls the basketball
+    - where a basketball bounces on the floor
+    - where a basketball is touched by the feet
+    - where a basketball is stolen by the opponent
+  xprompt_ao:
+    - which involves a basketball
+    - which requires a hand
+    - which happens on the floor
+    - which interacts with the feet
+    - which can be stopped by an opponent
+  xprompt_aa:
+    - starting with picking up the basketball
+    - where picking up the basketball precedes bouncing the basketball
+    - where bouncing the basketball comes before controlling the basketball with the hand
+    - where controlling the basketball with the hand precedes touching the basketball with the feet
+    - where touching the basketball with the feet comes before avoiding the opponent's attempt to steal the basketball
+
+# This is an example of drink...
+drink:
+  label: drink
+  xprompt_oo:
+    - where the liquid is contained in a container
+    - where the liquid is consumed through the mouth
+    - where the container is held by the hand
+    - where the container is placed on a coaster
+  xprompt_ao:
+    - which involves a liquid
+    - which uses a container
+    - which requires a mouth
+    - which needs a hand
+    - which utilizes a coaster
+  xprompt_aa:
+    - starting with picking up the container
+    - where picking up the container precedes bringing it to the mouth
+    - where bringing the container to the mouth comes before tilting it
+    - where tilting the container precedes swallowing the liquid
+    - where swallowing the liquid comes before placing the container back on the coaster
+
+# This is an example of eating...
+eat:
+  label: eat
+  xprompt_oo:
+    - where food is placed on a plate
+    - where a plate is placed on a table
+    - where utensils are used to eat food
+    - where the mouth is used to consume food
+    - where a plate is placed on a table
+    - where a chair is used for sitting
+  xprompt_ao:
+    - which involves food
+    - which uses utensils
+    - which requires the mouth
+    - which utilizes a plate
+    - which utilizes a table
+    - which utilizes a chair
+  xprompt_aa:
+    - starting with preparing the food
+    - where preparing the food precedes setting the table
+    - where setting the table comes before sitting on the chair
+    - where sitting on the chair precedes picking up the utensils
+    - where picking up the utensils comes before bringing the food to the mouth
+    - where bringing the food to the mouth precedes chewing and swallowing the food
+
+# This is an example of falling to the floor...
+falling to the floor:
+  label: falling to the floor
+  xprompt_oo:
+    - where a person falls to the floor
+  xprompt_ao:
+    - which involves a person
+    - which happens on the floor
+  xprompt_aa: []
+
+# This is an example of fencing...
+fencing:
+  label: fencing
+  xprompt_oo:
+    - where a sword is used
+    - where a mask is worn
+    - where a glove is worn
+    - where a jacket is worn
+    - where a fencing strip is used
+    - where a fencer faces an opponent
+  xprompt_ao:
+    - which involves a sword
+    - which requires a mask
+    - which requires a glove
+    - which requires a jacket
+    - which takes place on a fencing strip
+    - which competes against an opponent
+  xprompt_aa:
+    - starting with putting on the mask
+    - where putting on the mask precedes wearing the glove
+    - where wearing the glove comes before wearing the jacket
+    - where wearing the jacket comes before picking up the sword
+    - where picking up the sword precedes parrying the opponent's attack
+    - where parrying the opponent's attack comes before lunging at the opponent
+
+# This is an example of flic flac...
+flic flac:
+  label: flic flac
+  xprompt_oo:
+    - performed by a gymnast
+    - using the floor
+    - supported with hands
+    - propelled with feet
+    - where the floor provides a surface
+    - where the floor is covered with a mat
+    - where the gymnast moves through the air
+  xprompt_ao:
+    - performed by a gymnast
+    - requiring the floor
+    - utilizing hands
+    - involving feet
+    - needing a mat
+    - involving air
+  xprompt_aa:
+    - starting with running towards the starting point
+    - where running towards the starting point precedes jumping off the feet
+    - where jumping off the feet comes before pushing off the floor with hands
+    - where pushing off the floor with hands precedes rotating the body in the air
+    - where rotating the body in the air comes before landing on the feet
+
+# This is an example of golf...
+golf:
+  label: golf
+  xprompt_oo:
+    - where a golf club is used to hit a golf ball
+    - where a golf ball is hit on a golf course
+    - where a golf ball is placed on a tee
+    - where a golf course consists of a fairway
+    - where a golf course has a green
+    - where a green contains a hole
+  xprompt_ao:
+    - which involves a golf club
+    - which uses a golf ball
+    - which takes place on a golf course
+    - which requires a tee
+    - which is played on a fairway
+    - which aims for a green
+    - which completes at a hole
+  xprompt_aa:
+    - starting with selecting the club
+    - where selecting the club precedes addressing the ball
+    - where addressing the ball comes before taking a swing
+    - where taking a swing precedes following through
+    - where following through comes before walking to the next hole
+
+# This is an example of handstand...
+handstand:
+  label: handstand
+  xprompt_oo:
+    - where hands support the body
+    - where arms hold the body
+    - where the head is positioned above the hands
+    - where the shoulders bear the weight of the body
+    - where core muscles stabilize the body
+    - where legs are extended upwards
+  xprompt_ao:
+    - which requires hands
+    - which involves arms
+    - which involves the head
+    - which puts pressure on the shoulders
+    - which engages core muscles
+    - which extends legs
+  xprompt_aa:
+    - starting with positioning hands on the ground
+    - where positioning hands on the ground precedes kicking legs up
+    - where kicking legs up comes before balancing the body on hands and arms
+    - where balancing the body on hands and arms precedes maintaining stability
+    - where maintaining stability comes before extending legs upwards
+
+# This is an example of hitting...
+hit:
+  label: hit
+  xprompt_oo:
+    - where an object is hit by a hand
+    - where a hand holds a bat
+    - where a bat strikes a ball
+    - where a ball hits a target
+  xprompt_ao:
+    - which involves an object
+    - which requires a hand
+    - which uses a bat
+    - which involves a ball
+    - which targets a target
+  xprompt_aa:
+    - starting with gripping the bat
+    - where gripping the bat precedes swinging the bat
+    - where swinging the bat comes before making contact with the ball
+    - where making contact with the ball precedes aiming for the target
+
+# This is an example of hugging...
+hug:
+  label: hug
+  xprompt_oo:
+    - where a person uses their arms
+    - where a person involves their body
+    - where a person expresses affection
+    - where a person embraces another person
+  xprompt_ao:
+    - which involves a person
+    - which requires arms
+    - which involves the body
+    - which expresses affection
+    - which involves an embrace
+  xprompt_aa:
+    - starting with approaching the person
+    - where approaching the person precedes extending arms
+    - where extending arms comes before wrapping arms around the person
+    - where wrapping arms around the person precedes pressing bodies together
+    - where pressing bodies together comes before showing affection
+
+# This is an example of jumping...
+jump:
+  label: jump
+  xprompt_oo:
+    - where legs push off the ground
+    - where legs propel into the air
+    - where feet make contact with the ground
+    - where the body moves through the air
+  xprompt_ao:
+    - which involves legs
+    - which requires the ground
+    - which involves air
+    - which uses feet
+    - which involves the body
+  xprompt_aa:
+    - starting with bending the knees
+    - where bending the knees precedes pushing off the ground
+    - where pushing off the ground comes before propelling into the air
+    - where propelling into the air precedes extending the legs
+    - where extending the legs comes before making contact with the ground
+    - where making contact with the ground precedes moving through the air
+
+# This is an example of kicking...
+kick:
+  label: kick
+  xprompt_oo:
+    - where a ball is kicked by a leg
+    - where a leg kicks a ball
+    - where a leg makes contact with a ball
+    - where a leg hits a target
+    - where a foot is used to kick
+    - where a foot strikes a ball
+    - where a ball bounces off the ground
+  xprompt_ao:
+    - which involves a ball
+    - which requires a leg
+    - which aims at a target
+    - which uses a foot
+    - which interacts with the ground
+  xprompt_aa:
+    - starting with positioning the ball
+    - where positioning the ball precedes winding up the leg
+    - where winding up the leg comes before swinging the leg
+    - where swinging the leg precedes making contact with the ball
+    - where making contact with the ball comes before following through with the leg
+    - where following through with the leg precedes observing the ball's trajectory
+
+# This is an example of kick ball...
+kick ball:
+  label: kick ball
+  xprompt_oo:
+    - where a ball is kicked by the foot
+    - where the foot is a part of the leg
+    - where the foot makes contact with the ball
+    - where the foot hits the ground
+  xprompt_ao:
+    - which involves a ball
+    - which requires a foot
+    - which requires a leg
+    - which interacts with the ground
+  xprompt_aa:
+    - starting with approaching the ball
+    - where approaching the ball precedes positioning the foot
+    - where positioning the foot comes before swinging the leg
+    - where swinging the leg precedes making contact with the ball
+    - where making contact with the ball comes before following through with the kick
+
+# This is an example of kissing...
+kiss:
+  label: kiss
+  xprompt_oo:
+    - where lips are connected to a mouth
+    - which involves lips
+    - which involves a mouth
+    - which involves a partner
+    - which involves the face
+    - which may involve hands
+  xprompt_ao:
+    - which requires lips
+    - which requires a mouth
+    - which involves a partner
+    - which involves the face
+    - which may involve hands
+  xprompt_aa:
+    - starting with leaning in
+    - where leaning in precedes closing eyes
+    - where closing eyes comes before touching lips
+    - where touching lips precedes applying pressure
+    - where applying pressure comes before releasing
+
+# This is an example of laughing...
+laugh:
+  label: laugh
+  xprompt_oo:
+    - where a joke causes laughter
+    - where a funny situation leads to laughter
+    - where laughter is produced by the mouth
+    - where laughter creates a sound
+  xprompt_ao:
+    - which involves a joke
+    - which involves a funny situation
+    - which requires a mouth
+    - which produces a sound
+  xprompt_aa:
+    - starting with hearing a joke
+    - where hearing a joke precedes finding something funny
+    - where finding something funny comes before opening the mouth
+    - where opening the mouth precedes making a sound
+
+# This is an example of pick...
+pick:
+  label: pick
+  xprompt_oo:
+    - where an object is picked by hand
+    - where an object is on the ground
+    - where an item is picked up from the floor
+    - where an item is picked up by hand
+    - where a thing is picked up from a surface
+    - where a thing is picked up by hand
+    - where a piece is picked up from a surface
+    - where a piece is picked up by hand
+  xprompt_ao:
+    - which involves an object
+    - which requires a hand
+    - which occurs on the ground
+    - which involves an item
+    - which involves a thing
+    - which involves a piece
+    - which occurs on a surface
+  xprompt_aa:
+    - starting with reaching down
+    - where reaching down precedes grasping the object
+    - where grasping the object comes before lifting the object
+    - where lifting the object precedes holding the object
+
+# This is an example of pour...
+pour:
+  label: pour
+  xprompt_oo:
+    - where a liquid is poured into a container
+    - where a container is placed on a surface
+    - where a hand holds a container
+    - where a hand controls the pour
+    - where a target receives the liquid
+  xprompt_ao:
+    - which involves a liquid
+    - which uses a container
+    - which requires a hand
+    - which needs a surface
+    - which directs a target
+  xprompt_aa:
+    - starting with picking up the container
+    - where picking up the container precedes positioning it over the target
+    - where positioning the container over the target comes before controlling the pour
+    - where controlling the pour precedes emptying the container
+    - where emptying the container comes before placing it back on the surface
+
+# This is an example of pullup...
+pullup:
+  label: pullup
+  xprompt_oo:
+    - where a bar is held by a grip
+    - where the body is suspended from a bar
+    - where arms are used for a pullup
+    - where strength is required for a pullup
+  xprompt_ao:
+    - which requires a bar
+    - which involves the body
+    - which utilizes the arms
+    - which relies on the grip
+    - which demands strength
+  xprompt_aa:
+    - starting with gripping the bar
+    - where gripping the bar precedes hanging from the bar
+    - where hanging from the bar comes before pulling the body up
+    - where pulling the body up precedes lowering the body down
+
+# This is an example of punching...
+
+punch:
+  label: punch
+  xprompt_oo:
+    - where a fist hits a target
+    - where an arm propels the fist
+    - where a face is struck by a fist
+    - where a body generates force for a punch
+    - where a punch bag absorbs the impact from a punch
+  xprompt_ao:
+    - which involves a fist
+    - which targets a specific target
+    - which requires the use of an arm
+    - which strikes the face
+    - which utilizes the body
+    - which impacts a punch bag
+  xprompt_aa:
+    - starting with winding up the punch
+    - where winding up the punch precedes extending the arm
+    - where extending the arm comes before aiming for the target
+    - where aiming for the target precedes making contact with the target
+    - where making contact with the target comes before retracting the arm
+
+# This is an example of push...
+push:
+  label: push
+  xprompt_oo:
+    - when an object is pushed by a hand
+    - when a hand applies force to push an object
+    - when a hand pushes against a surface
+    - when force is applied in a certain direction
+  xprompt_ao:
+    - which involves an object
+    - which requires a hand
+    - which requires a surface
+    - which requires force
+    - which requires a direction
+  xprompt_aa:
+    - starting with reaching for the object
+    - where reaching for the object precedes positioning the hand on the object
+    - where positioning the hand on the object comes before applying force with the hand
+    - where applying force with the hand precedes directing the force towards the surface
+
+# This is an example of pushup...
+pushup:
+  label: pushup
+  xprompt_oo:
+    - where hands are placed on the floor
+    - where the body is positioned above the floor
+    - where arms support the body
+    - where the chest is lowered towards the floor
+    - where shoulders are engaged during the pushup
+    - where the core is stabilized during the pushup
+  xprompt_ao:
+    - which requires the floor
+    - which involves hands
+    - which involves the body
+    - which utilizes arms
+    - which targets the chest
+    - which activates shoulders
+    - which engages the core
+  xprompt_aa:
+    - starting with the starting position
+    - where the starting position precedes lowering the body
+    - where lowering the body comes before pushing the body up
+
+# This is an example of riding a bike...
+ride bike:
+  label: ride bike
+  xprompt_oo:
+    - where a bike has a helmet
+    - where a bike moves on a road
+    - where a bike is powered by pedals
+    - where a bike is controlled by handlebars
+    - where a bike has wheels
+    - where a bike is equipped with brakes
+  xprompt_ao:
+    - which involves a bike
+    - which requires a helmet
+    - which takes place on a road
+    - which utilizes pedals
+    - which is controlled by handlebars
+    - which relies on wheels
+    - which uses brakes
+  xprompt_aa:
+    - starting with putting on the helmet
+    - where putting on the helmet precedes mounting the bike
+    - where mounting the bike comes before pedaling
+    - where pedaling precedes steering
+    - where steering comes before braking
+    - where braking precedes dismounting the bike
+
+# This is an example of riding a horse...
+ride horse:
+  label: ride horse
+  xprompt_oo:
+    - where a horse wears a saddle
+    - where reins are held by hands
+    - where stirrups are attached to a saddle
+    - where a bridle is used to control a horse
+    - where a helmet is worn for safety
+    - where boots are worn for protection
+  xprompt_ao:
+    - which involves a horse
+    - which requires a saddle
+    - which uses reins
+    - which utilizes stirrups
+    - which requires a bridle
+    - which requires a helmet
+    - which requires boots
+  xprompt_aa:
+    - starting with approaching the horse
+    - where approaching the horse precedes mounting the horse
+    - where mounting the horse comes before adjusting the stirrups
+    - where adjusting the stirrups precedes holding the reins
+    - where holding the reins comes before giving commands to the horse
+    - where giving commands to the horse precedes maintaining balance while riding
+
+# This is an example of running...
+run:
+  label: run
+  xprompt_oo:
+    - where legs move feet
+    - where feet touch the ground
+    - where shoes are worn on feet
+    - where running takes place on a track
+    - where a timer is used to measure running time
+  xprompt_ao:
+    - which involves legs
+    - which requires feet
+    - which takes place on the ground
+    - which requires shoes
+    - which takes place on a track
+    - which is measured by a timer
+  xprompt_aa:
+    - starting with warming up
+    - where warming up precedes starting running
+    - where starting running comes before maintaining pace
+    - where maintaining pace precedes reaching the finish line
+
+# This is an example of shaking hands...
+shake hands:
+  label: shake hands
+  xprompt_oo:
+    - where one hand touches another person's hand
+  xprompt_ao:
+    - which involves a hand
+    - which involves another person's hand
+  xprompt_aa:
+    - starting with extending a hand
+    - where extending the hand precedes gripping the other person's hand
+    - where gripping the other person's hand comes before shaking the hand
+
+# This is an example of shooting a ball...
+shoot ball:
+  label: shoot ball
+  xprompt_oo:
+    - where a ball is aimed at a basketball hoop
+    - where a hand holds the ball
+    - where a hand releases the ball
+    - where an arm propels the ball
+    - where legs provide balance for the shooting motion
+    - where eyes focus on the basketball hoop
+  xprompt_ao:
+    - which involves a ball
+    - which aims at a basketball hoop
+    - which requires a hand
+    - which utilizes an arm
+    - which relies on legs
+    - which requires eyes
+  xprompt_aa:
+    - starting with gripping the ball
+    - where gripping the ball precedes aiming at the basketball hoop
+    - where aiming at the basketball hoop comes before raising the arm
+    - where raising the arm precedes bending the legs
+    - where bending the legs comes before releasing the ball
+
+# This is an example of shooting a bow...
+shoot bow:
+  label: shoot bow
+  xprompt_oo:
+    - where a bow holds an arrow
+    - where an arrow is aimed at a target
+    - where a hand holds a bow
+    - where a hand pulls a string
+    - where an eye focuses on a target
+    - where an arm extends a bow
+  xprompt_ao:
+    - which involves a bow
+    - which uses an arrow
+    - which targets a target
+    - which requires a hand
+    - which requires a string
+    - which requires an eye
+    - which requires an arm
+  xprompt_aa:
+    - starting with gripping the bow
+    - where gripping the bow precedes nocking the arrow
+    - where nocking the arrow comes before drawing the bowstring
+    - where drawing the bowstring precedes aiming at the target
+    - where aiming at the target comes before releasing the arrow
+
+# This is an example of shooting a gun...
+shoot gun:
+  label: shooting gun
+  xprompt_oo:
+    - where a gun is loaded with a bullet
+    - where a gun is aimed at a target
+    - where a finger pulls the trigger of a gun
+    - where a hand holds a gun
+    - where an eye focuses on a target
+  xprompt_ao:
+    - which involves a gun
+    - which requires a bullet
+    - which targets a target
+    - which uses a finger
+    - which needs a hand
+    - which requires an eye
+  xprompt_aa:
+    - starting with loading a gun
+    - where loading the gun precedes aiming the gun
+    - where aiming the gun comes before pulling the trigger
+    - where pulling the trigger precedes holding the gun
+    - where holding the gun comes before focusing on the target
+
+# This is an example of sitting...
+sit:
+  label: sit
+  xprompt_oo:
+    - where a person sits on a chair
+    - where a chair provides support for a person
+    - where a chair has a surface
+    - where a chair has legs
+    - where a chair has a backrest
+  xprompt_ao:
+    - which involves a chair
+    - which requires a person
+    - which needs a surface
+    - which utilizes legs
+    - which utilizes a backrest
+  xprompt_aa:
+    - starting with finding a chair
+    - where finding a chair precedes approaching the chair
+    - where approaching the chair comes before bending the knees
+    - where bending the knees precedes lowering the body onto the chair
+    - where lowering the body onto the chair comes before adjusting the position
+
+# This is an example of situp...
+situp:
+  label: situp
+  xprompt_oo:
+    - where the body lies on the floor
+    - where the body is supported by a mat
+    - where the body bends its legs
+    - where the legs are extended towards the feet
+    - where the hands are placed behind the head
+  xprompt_ao:
+    - which requires the floor
+    - which uses a mat
+    - which involves the body
+    - which engages the legs
+    - which utilizes the feet
+    - which requires the hands
+  xprompt_aa:
+    - starting with lying down on the floor
+    - where lying down on the floor precedes bending the legs
+    - where bending the legs comes before raising the upper body
+    - where raising the upper body comes before lowering the upper body
+    - where lowering the upper body precedes extending the legs
+
+# This is an example of smiling...
+smile:
+  label: smile
+  xprompt_oo:
+    - where a face contains a mouth
+    - where a mouth has lips
+    - where a mouth reveals teeth
+  xprompt_ao:
+    - which involves a face
+    - which requires a mouth
+    - which uses lips
+    - which shows teeth
+  xprompt_aa: []
+
+# This is an example of smoking...
+smoke:
+  label: smoke
+  xprompt_oo:
+    - where a cigarette is held by the hand
+    - where a cigarette is placed in the mouth
+    - where a lighter is used to light a cigarette
+    - where a cigarette is disposed of in an ashtray
+  xprompt_ao:
+    - which involves a cigarette
+    - which requires a lighter
+    - which needs a mouth
+    - which utilizes a hand
+    - which involves an ashtray
+  xprompt_aa:
+    - starting with lighting the cigarette
+    - where lighting the cigarette precedes inhaling the smoke
+    - where inhaling the smoke comes before exhaling the smoke
+    - where exhaling the smoke precedes disposing of the cigarette
+
+# This is an example of somersault...
+somersault:
+  label: somersault
+  xprompt_oo:
+    - where the body rotates in the air
+    - where the body touches the ground
+    - where the body gains momentum
+    - where the legs tuck in the body
+    - where the arms extend out from the body
+  xprompt_ao:
+    - which involves the body
+    - which requires the ground
+    - which utilizes the air
+    - which utilizes momentum
+    - which involves the legs
+    - which involves the arms
+  xprompt_aa:
+    - starting with jumping
+    - where jumping precedes tucking the legs
+    - where tucking the legs comes before extending the arms
+    - where extending the arms precedes rotating the body
+    - where rotating the body comes before landing
+
+# This is an example of standing...
+stand:
+  label: stand
+  xprompt_oo:
+    - where a person stands on their feet
+    - where feet touch the ground
+    - where legs support a person
+    - where balance is maintained by a person
+  xprompt_ao:
+    - which involves a person
+    - which requires feet
+    - which relies on the ground
+    - which utilizes legs
+    - which requires balance
+  xprompt_aa:
+    - starting with finding a stable position
+    - where finding a stable position precedes shifting weight
+    - where shifting weight comes before maintaining an upright posture
+
+# This is an example of swing baseball...
+swing baseball:
+  label: swing baseball
+  xprompt_oo:
+    - where a baseball bat is used to hit a baseball
+    - where a baseball is thrown by a pitcher
+    - where a hand holds a baseball bat
+    - where the body generates power for the swing
+    - where a baseball is hit in the field
+    - where a pitcher throws a baseball
+  xprompt_ao:
+    - which involves a baseball bat
+    - which involves a baseball
+    - which requires a hand
+    - which utilizes the body
+    - which takes place in the field
+    - which interacts with a pitcher
+  xprompt_aa:
+    - starting with gripping the baseball bat
+    - where gripping the baseball bat precedes positioning the body
+    - where positioning the body comes before tracking the pitch
+    - where tracking the pitch precedes swinging the bat
+    - where swinging the bat comes before making contact with the baseball
+    - where making contact with the baseball precedes following through
+
+# This is an example of sword...
+sword:
+  label: sword
+  xprompt_oo:
+    - where the blade is attached to the hilt
+    - where the blade is covered by a sheath
+    - where the sheath is inserted into a scabbard
+    - where the hilt is connected to the handle
+    - where the handle is protected by a guard
+    - where the handle is topped with a pommel
+  xprompt_ao:
+    - which consists of a blade
+    - which includes a hilt
+    - which requires a sheath
+    - which needs a scabbard
+    - which utilizes a handle
+    - which is protected by a guard
+    - which is topped with a pommel
+  xprompt_aa:
+    - starting with unsheathing the sword
+    - where unsheathing the sword precedes gripping the hilt
+    - where gripping the hilt comes before swinging the sword
+    - where swinging the sword precedes parrying with the sword
+    - where parrying with the sword comes before sheathing the sword
+
+# This is an example of sword exercise...
+sword exercise:
+  label: sword exercise
+  xprompt_oo:
+    - where a sword is held by the hand
+    - where a sword is used by the body
+    - where the body performs sword exercise
+    - where a mat is used for sword exercise
+    - where an instructor guides a student
+  xprompt_ao:
+    - which involves a sword
+    - which requires the body
+    - which utilizes a mat
+    - which is led by an instructor
+    - which is performed by a student
+  xprompt_aa:
+    - starting with warm-up exercises
+    - where warm-up exercises precede basic sword techniques
+    - where basic sword techniques come before forms and sequences
+    - where forms and sequences precede sparring drills
+    - where sparring drills come before cool-down exercises
+
+talk:
+  label: talk
+  xprompt_oo:
+    - where a person speaks words
+    - where a person uses their mouth
+    - where a person listens with their ears
+    - where a conversation involves a person
+    - where a phone is used for a conversation
+    - where a microphone amplifies words
+  xprompt_ao:
+    - which involves a person
+    - which includes words
+    - which requires a mouth
+    - which involves ears
+    - which involves a conversation
+    - which can be done with a phone
+    - which can be amplified by a microphone
+  xprompt_aa:
+    - starting with starting a conversation
+    - where starting a conversation precedes speaking
+    - where speaking comes before listening
+    - where listening precedes responding
+    - where responding comes before ending a conversation
+
+# This is an example of throw...
+throw:
+  label: throw
+  xprompt_oo:
+    - where an object is thrown by hand
+    - where an object is thrown towards a target
+    - where a hand performs a throwing motion
+    - where a motion generates force
+  xprompt_ao:
+    - which involves an object
+    - which requires a hand
+    - which aims at a target
+    - which utilizes a throwing motion
+    - which generates force
+  xprompt_aa:
+    - starting with picking up the object
+    - where picking up the object precedes winding up the arm
+    - where winding up the arm comes before releasing the object
+    - where releasing the object precedes following through with the arm
+
+# This is an example of turning...
+turn:
+  label: turn
+  xprompt_oo:
+    - where an object has a handle
+    - where an object can be turned in a direction
+    - where an object can be turned with a key
+    - where an object can be turned using a knob
+  xprompt_ao:
+    - which involves an object
+    - which requires a handle
+    - which requires a direction
+    - which requires a key
+    - which requires a knob
+  xprompt_aa:
+    - starting with grasping the object
+    - where grasping the object precedes rotating the object
+    - where rotating the object comes before changing the direction
+    - where changing the direction comes before inserting the key
+    - where inserting the key precedes twisting the knob
+
+# This is an example of walking...
+walk:
+  label: walk
+  xprompt_oo:
+    - where legs are connected to feet
+    - where feet touch the ground
+    - where feet wear shoes
+    - where walking is towards a destination
+  xprompt_ao:
+    - which involves legs
+    - which requires feet
+    - which takes place on the ground
+    - which requires shoes
+    - which has a destination
+  xprompt_aa:
+    - starting with lifting the leg
+    - where lifting the leg precedes moving the leg forward
+    - where moving the leg forward comes before placing the foot on the ground
+    - where placing the foot on the ground precedes repeating the process with the other leg
+
+# This is an example of waving...
+wave:
+  label: waving
+  xprompt_oo:
+    - where a hand is part of an arm
+    - where an arm is connected to a person
+    - where a person waves as a greeting
+    - where a person waves as a goodbye
+  xprompt_ao:
+    - which involves a hand
+    - which requires an arm
+    - which is performed by a person
+    - which expresses a greeting
+    - which expresses a goodbye
+  xprompt_aa: []
+
