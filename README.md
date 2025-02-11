@@ -1,7 +1,7 @@
 # Spatiotemporal Dynamic Duo
 This repository contains the official Pytorch implementation of our paper:
 
-- **"Building a Multi-modal Spatiotemporal Expert for Zero-shot Action Recognition with CLIP" (AAAI 2025)** [[`Paper`]](https://arxiv.org/pdf/2412.09895)
+- **"Building a Multi-modal Spatiotemporal Expert for Zero-shot Action Recognition with CLIP" (AAAI 2025)** [[`Paper`]](https://arxiv.org/pdf/2412.09895v2)
 
   Yating Yu, Congqi Cao, Yueran Zhang, Qinyi Lv, Lingtong Min, Yanning Zhang
 
